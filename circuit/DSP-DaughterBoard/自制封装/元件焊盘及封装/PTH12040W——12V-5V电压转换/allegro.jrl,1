@@ -1,0 +1,83 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/PTH12040W——12V-5V电压转换/PTH12040W_EVF20.dra
+\i (00:00:02) trapsize 116
+\i (00:00:02) trapsize 113
+\t (00:00:02) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:00:02) trapsize 1806
+\t (00:00:02) Grids are drawn 10.2400, 10.2400 apart for enhanced viewability.
+\i (00:00:02) trapsize 113780
+\i (00:00:02) trapsize 116
+\i (00:00:04) trapsize 116
+\i (00:00:04) generaledit 
+\i (00:00:09) color192 
+\i (00:00:10) generaledit 
+\i (00:00:13) setwindow cvf.dialog
+\i (00:00:13) cvf global_invisible
+\i (00:00:14) cvf apply
+\i (00:00:17) cvf layer_tree_item 37
+\i (00:00:19) cvf layer_grid_vis 2 153 1
+\i (00:00:20) cvf apply
+\i (00:00:23) cvf layer_tree_item 45
+\i (00:00:27) cvf layer_tree_item 54
+\i (00:00:29) cvf layer_grid_vis 11 221 1
+\i (00:00:30) cvf apply
+\i (00:00:34) cvf layer_grid_vis 7 221 1
+\i (00:00:35) cvf apply
+\i (00:00:40) cvf layer_grid_vis 13 221 1
+\i (00:00:41) cvf apply
+\i (00:00:45) cvf layer_grid_vis 13 221 0
+\i (00:00:46) cvf apply
+\i (00:00:49) cvf layer_grid_vis 13 221 1
+\i (00:00:50) cvf apply
+\i (00:00:59) cvf layer_grid_vis 9 221 1
+\i (00:01:00) cvf apply
+\i (00:01:07) cvf layer_tree_item 55
+\i (00:01:10) cvf layer_tree_item 58
+\i (00:01:13) cvf layer_grid_vis 3 237 1
+\i (00:01:14) cvf apply
+\i (00:01:16) cvf layer_grid_vis 5 237 1
+\i (00:01:17) cvf apply
+\i (00:01:22) cvf global_visible
+\i (00:01:23) cvf okay
+\i (00:01:34) setwindow form.mini
+\i (00:01:34) FORM mini class REF DES 
+\i (00:01:36) FORM mini subclass SILKSCREEN_TOP 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) move 
+\t (00:01:39) Select element(s) to move.
+\i (00:01:41) drag_start grid -1.1246 0.5592
+\i (00:01:42) drag_stop -0.9595 0.6034
+\t (00:01:42) Pick new location for the element(s).
+\i (00:01:53) pick grid -0.9363 -0.5821
+\t (00:01:53) last pick:  -0.9400  -0.5800
+\i (00:01:56) done 
+\i (00:01:56) generaledit 
+\i (00:02:02) setwindow form.mini
+\i (00:02:02) FORM mini class PACKAGE KEEPOUT 
+\i (00:02:06) FORM mini class PACKAGE GEOMETRY 
+\i (00:02:08) FORM mini subclass CHIPDATA 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) pick grid 1.0023 -0.5728
+\t (00:02:09) last pick:  1.0000  -0.5700
+\i (00:02:13) delete 
+\i (00:02:13) generaledit 
+\i (00:02:14) pick grid -1.0037 -0.5798
+\t (00:02:14) last pick:  -1.0000  -0.5800
+\i (00:02:16) delete 
+\i (00:02:16) generaledit 
+\i (00:02:17) save 
+\f (00:02:17) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/PTH12040W——12V-5V电压转换/PTH12040W_EVF20.dra: File Exists. Overwrite? 
+\i (00:02:18) fillin yes 
+\t (00:02:18) Symbol 'pth12040w_evf20.psm' created.
+\i (00:02:19) generaledit 
+\i (00:02:20) pick grid 0.1818 0.7382
+\t (00:02:20) last pick:  0.1800  0.7400
+\i (00:02:21) save 
+\f (00:02:21) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/PTH12040W——12V-5V电压转换/PTH12040W_EVF20.dra: File Exists. Overwrite? 
+\i (00:02:21) fillin yes 
+\t (00:02:22) Symbol 'pth12040w_evf20.psm' created.
+\i (00:02:22) generaledit 
+\i (00:02:22) exit 

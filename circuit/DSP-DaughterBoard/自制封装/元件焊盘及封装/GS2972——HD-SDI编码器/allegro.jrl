@@ -1,0 +1,30 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/GS2972——HD-SDI编码器/GS2972_BGA100.dra
+\i (00:00:02) trapsize 100
+\i (00:00:02) trapsize 97
+\i (00:00:02) trapsize 623
+\i (00:00:02) trapsize 97865
+\i (00:00:02) trapsize 100
+\i (00:00:05) trapsize 100
+\i (00:00:05) generaledit 
+\i (00:00:09) save 
+\f (00:00:09) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/GS2972——HD-SDI编码器/GS2972_BGA100.dra: File Exists. Overwrite? 
+\i (00:00:10) fillin yes 
+\t (00:00:10) Symbol 'gs2972_bga100.psm' created.
+\i (00:00:10) generaledit 
+\i (00:00:12) color192 
+\i (00:00:12) generaledit 
+\i (00:00:15) setwindow cvf.dialog
+\i (00:00:15) cvf global_invisible
+\i (00:00:20) cvf layer_tree_item 37
+\i (00:00:21) cvf layer_grid_vis 2 153 1
+\i (00:00:22) cvf apply
+\i (00:00:24) cvf cancel
+\i (00:00:24) setwindow pcb
+\i (00:00:24) trapsize 150
+\i (00:00:26) exit 
+\f (00:00:26) Do you want to save the changes you made to E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/GS2972——HD-SDI编码器/GS2972_BGA100.dra?
+\i (00:00:27) fillin no 

@@ -1,0 +1,47 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/PTH08T240F——5V输入电压转换/PTH08T240F_EBS11.dra
+\i (00:00:02) trapsize 59
+\i (00:00:02) trapsize 57
+\t (00:00:02) Grids are drawn 0.1568, 0.1568 apart for enhanced viewability.
+\i (00:00:02) trapsize 914
+\t (00:00:02) Grids are drawn 10.0352, 10.0352 apart for enhanced viewability.
+\i (00:00:02) trapsize 57585
+\i (00:00:02) trapsize 59
+\i (00:00:04) trapsize 59
+\i (00:00:05) generaledit 
+\i (00:00:10) drag_start grid -0.4821 -0.3457
+\i (00:00:11) drag_stop 0.4743 -0.4033
+\i (00:00:13) delete 
+\i (00:00:13) generaledit 
+\i (00:00:15) save 
+\f (00:00:15) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/PTH08T240F——5V输入电压转换/PTH08T240F_EBS11.dra: File Exists. Overwrite? 
+\i (00:00:15) fillin yes 
+\t (00:00:16) Symbol 'pth08t240f_ebs11.psm' created.
+\i (00:00:16) generaledit 
+\i (00:00:21) pick grid -0.3621 0.3895
+\t (00:00:21) last pick:  -0.3626  0.3920
+\i (00:00:28) setwindow form.mini
+\i (00:00:28) FORM mini class REF DES 
+\i (00:00:31) FORM mini subclass SILKSCREEN_TOP 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) pick grid -0.3750 0.3860
+\t (00:00:38) last pick:  -0.3724  0.3822
+\i (00:00:40) move 
+\t (00:00:40) Pick new location for the element(s).
+\i (00:00:47) pick grid -0.3280 0.3401
+\t (00:00:47) last pick:  -0.3234  0.3430
+\i (00:00:47) generaledit 
+\i (00:00:49) save 
+\f (00:00:49) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/PTH08T240F——5V输入电压转换/PTH08T240F_EBS11.dra: File Exists. Overwrite? 
+\i (00:00:50) fillin yes 
+\t (00:00:50) Symbol 'pth08t240f_ebs11.psm' created.
+\i (00:00:50) generaledit 
+\i (00:01:04) save 
+\f (00:01:04) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/PTH08T240F——5V输入电压转换/PTH08T240F_EBS11.dra: File Exists. Overwrite? 
+\i (00:01:06) fillin yes 
+\t (00:01:06) Symbol 'pth08t240f_ebs11.psm' created.
+\i (00:01:06) generaledit 
+\i (00:01:10) exit 

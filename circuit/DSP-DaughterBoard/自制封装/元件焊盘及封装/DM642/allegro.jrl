@@ -1,0 +1,33 @@
+\t (00:00:05) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:05) 
+
+\t (00:00:06) Opening existing drawing...
+\d (00:00:06) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/DM642/DM642_BGA548.dra
+\i (00:00:06) trapsize 212
+\i (00:00:06) trapsize 206
+\i (00:00:06) trapsize 3024
+\i (00:00:06) trapsize 190500
+\i (00:00:06) trapsize 195
+\i (00:00:07) trapsize 212
+\i (00:00:08) generaledit 
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in -13.261 12.253
+\i (00:00:10) trapsize 106
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in -13.261 12.253
+\i (00:00:11) trapsize 53
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in -13.260 12.253
+\i (00:00:11) trapsize 27
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out -11.744 11.978
+\i (00:00:13) trapsize 53
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -11.956 12.900
+\i (00:00:14) trapsize 27
+\i (00:00:18) exit 

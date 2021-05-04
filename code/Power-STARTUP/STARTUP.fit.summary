@@ -1,0 +1,11 @@
+Fitter Status : Successful - Thu May 31 19:29:27 2012
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : STARTUP
+Top-level Entity Name : STARTUP
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 210 / 240 ( 88 % )
+Total pins : 52 / 80 ( 65 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

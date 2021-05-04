@@ -1,0 +1,18 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/MT47H64M16——1GbDDR2/MT47H64M16_FBGA84.dra
+\i (00:00:02) trapsize 114
+\i (00:00:02) trapsize 111
+\i (00:00:02) trapsize 1814
+\i (00:00:02) trapsize 114300
+\i (00:00:02) trapsize 117
+\i (00:00:04) trapsize 114
+\i (00:00:05) generaledit 
+\i (00:00:06) save 
+\f (00:00:06) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/MT47H64M16——1GbDDR2/MT47H64M16_FBGA84.dra: File Exists. Overwrite? 
+\i (00:00:07) fillin yes 
+\t (00:00:07) Symbol 'mt47h64m16_fbga84.psm' created.
+\i (00:00:07) generaledit 
+\i (00:00:09) exit 

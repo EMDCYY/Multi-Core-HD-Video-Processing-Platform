@@ -1,0 +1,20 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/CDCE949——可编程PLL/CDCE949_TSOP24.dra
+\i (00:00:02) trapsize 70
+\i (00:00:02) trapsize 68
+\i (00:00:02) trapsize 1091
+\i (00:00:02) trapsize 68730
+\i (00:00:02) trapsize 70
+\i (00:00:04) trapsize 70
+\i (00:00:04) generaledit 
+\i (00:00:06) pick grid -4.861 -1.365
+\t (00:00:06) last pick:  -4.900  -1.400
+\i (00:00:08) save 
+\f (00:00:08) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/CDCE949——可编程PLL/CDCE949_TSOP24.dra: File Exists. Overwrite? 
+\i (00:00:09) fillin yes 
+\t (00:00:09) Symbol 'cdce949_tsop24.psm' created.
+\i (00:00:10) generaledit 
+\i (00:00:12) exit 

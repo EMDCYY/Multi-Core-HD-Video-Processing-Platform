@@ -1,0 +1,55 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/SN74LVC2T45——双向总线收发器/SN74LVC2T45_TSSOP8.dra
+\i (00:00:02) trapsize 49
+\i (00:00:02) trapsize 48
+\i (00:00:02) trapsize 764
+\i (00:00:02) trapsize 48160
+\i (00:00:02) trapsize 49
+\i (00:00:04) trapsize 49
+\i (00:00:04) generaledit 
+\i (00:00:08) save 
+\f (00:00:08) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/SN74LVC2T45——双向总线收发器/SN74LVC2T45_TSSOP8.dra: File Exists. Overwrite? 
+\i (00:00:09) fillin yes 
+\t (00:00:10) Symbol 'sn74lvc2t45_tssop8.psm' created.
+\i (00:00:10) generaledit 
+\i (00:00:13) color192 
+\i (00:00:14) generaledit 
+\i (00:00:16) setwindow cvf.dialog
+\i (00:00:16) cvf global_invisible
+\i (00:00:18) cvf apply
+\i (00:00:23) cvf layer_tree_item 44
+\i (00:00:26) cvf layer_grid_vis 2 153 1
+\i (00:00:27) cvf apply
+\i (00:00:30) cvf layer_tree_item 54
+\i (00:00:33) cvf layer_grid_vis 7 221 1
+\i (00:00:35) cvf layer_grid_vis 5 221 1
+\i (00:00:37) cvf apply
+\i (00:00:39) cvf layer_grid_vis 3 221 1
+\i (00:00:40) cvf apply
+\i (00:00:44) cvf layer_grid_vis 9 221 1
+\i (00:00:46) cvf apply
+\i (00:00:54) cvf layer_tree_item 55
+\i (00:00:56) cvf layer_grid_vis 3 237 1
+\i (00:00:58) cvf apply
+\i (00:01:01) cvf layer_grid_vis 5 237 1
+\i (00:01:04) cvf apply
+\i (00:01:07) cvf okay
+\i (00:01:08) setwindow pcb
+\i (00:01:08) pick grid 2.523 -3.582
+\t (00:01:08) last pick:  2.500  -3.600
+\i (00:01:08) save 
+\f (00:01:08) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/SN74LVC2T45——双向总线收发器/SN74LVC2T45_TSSOP8.dra: File Exists. Overwrite? 
+\i (00:01:11) fillin no 
+\i (00:01:13) fillin "menu_cancel"
+\i (00:01:13) generaledit 
+\i (00:01:14) pick grid 2.867 -0.916
+\t (00:01:14) last pick:  2.900  -0.900
+\i (00:01:14) save 
+\f (00:01:14) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/SN74LVC2T45——双向总线收发器/SN74LVC2T45_TSSOP8.dra: File Exists. Overwrite? 
+\i (00:01:15) fillin yes 
+\t (00:01:15) Symbol 'sn74lvc2t45_tssop8.psm' created.
+\i (00:01:15) generaledit 
+\i (00:01:16) exit 

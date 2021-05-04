@@ -1,0 +1,132 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/TVP5150AM1——解码/TVP5150AM1_TSQFP32.dra
+\i (00:00:02) trapsize 76
+\i (00:00:02) trapsize 74
+\i (00:00:02) trapsize 1210
+\i (00:00:02) trapsize 76200
+\i (00:00:02) trapsize 78
+\i (00:00:04) trapsize 76
+\i (00:00:04) generaledit 
+\i (00:00:07) zoom out 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out -1.906 -0.246
+\i (00:00:07) trapsize 160
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in 15.441 -1.336
+\i (00:00:07) trapsize 80
+\i (00:00:08) zoom out 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out 3.531 -1.464
+\i (00:00:08) trapsize 160
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 19.251 4.139
+\i (00:00:09) trapsize 80
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 4.875 4.139
+\i (00:00:10) trapsize 160
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 20.948 -6.394
+\i (00:00:11) trapsize 80
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 5.724 -6.394
+\i (00:00:11) trapsize 160
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 21.012 -0.087
+\i (00:00:12) trapsize 80
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 5.756 -0.087
+\i (00:00:13) trapsize 160
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 20.819 10.990
+\i (00:00:14) trapsize 80
+\i (00:00:14) zoom out 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom out 5.660 10.990
+\i (00:00:14) trapsize 160
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in 21.012 6.572
+\i (00:00:15) trapsize 80
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 5.772 6.428
+\i (00:00:16) trapsize 160
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in 20.980 3.659
+\i (00:00:16) trapsize 80
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out 5.660 2.955
+\i (00:00:16) trapsize 160
+\i (00:00:17) save 
+\f (00:00:17) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/TVP5150AM1——解码/TVP5150AM1_TSQFP32.dra: File Exists. Overwrite? 
+\i (00:00:18) fillin yes 
+\t (00:00:19) Symbol 'tvp5150am1_tsqfp32.psm' created.
+\i (00:00:19) generaledit 
+\i (00:00:20) zoom in 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom in 11.215 -1.368
+\i (00:00:20) trapsize 80
+\i (00:00:24) setwindow worldview
+\i (00:00:24) trapsize 80
+\i (00:00:26) trapsize 80
+\i (00:00:28) trapsize 29
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 3.938 -3.085
+\i (00:00:30) trapsize 59
+\i (00:00:33) color192 
+\i (00:00:34) generaledit 
+\i (00:00:36) setwindow cvf.dialog
+\i (00:00:36) cvf global_invisible
+\i (00:00:37) cvf apply
+\i (00:00:40) cvf layer_tree_item 44
+\i (00:00:41) cvf layer_grid_vis 2 153 1
+\i (00:00:43) cvf apply
+\i (00:00:44) cvf layer_tree_item 53
+\i (00:00:45) cvf layer_tree_item 54
+\i (00:00:47) cvf layer_grid_vis 3 221 1
+\i (00:00:48) cvf apply
+\i (00:00:53) cvf layer_grid_vis 7 221 1
+\i (00:00:54) cvf apply
+\i (00:00:58) cvf layer_grid_vis 9 221 1
+\i (00:00:59) cvf apply
+\i (00:01:06) cvf layer_grid_vis 5 221 1
+\i (00:01:07) cvf apply
+\i (00:01:09) cvf layer_tree_item 55
+\i (00:01:12) cvf layer_grid_vis 3 237 1
+\i (00:01:14) cvf apply
+\i (00:01:16) cvf layer_grid_vis 5 237 1
+\i (00:01:18) cvf apply
+\i (00:01:24) setwindow pcb
+\i (00:01:24) pick grid 4.061 2.703
+\t (00:01:24) last pick:  4.100  2.700
+\i (00:01:25) zoom out 1 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom out 4.061 2.703
+\i (00:01:25) trapsize 117
+\i (00:01:31) setwindow cvf.dialog
+\i (00:01:31) cvf global_visible
+\i (00:01:32) cvf okay
+\t (00:01:33) last pick:  6.607  -4.898
+\w (00:01:33) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:01:33) setwindow pcb
+\i (00:01:33) save 
+\f (00:01:33) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/TVP5150AM1——解码/TVP5150AM1_TSQFP32.dra: File Exists. Overwrite? 
+\i (00:01:34) fillin yes 
+\t (00:01:34) Symbol 'tvp5150am1_tsqfp32.psm' created.
+\i (00:01:34) generaledit 
+\i (00:01:35) exit 

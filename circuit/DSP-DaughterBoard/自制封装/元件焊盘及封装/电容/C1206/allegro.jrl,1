@@ -1,0 +1,74 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.064/MYSYM/C1206.dra
+\i (00:00:02) trapsize 23
+\i (00:00:02) trapsize 22
+\i (00:00:02) trapsize 140
+\i (00:00:02) trapsize 22000
+\i (00:00:02) trapsize 22
+\i (00:00:04) trapsize 22
+\i (00:00:04) generaledit 
+\i (00:00:08) add pin 
+\i (00:00:11) setwindow form.mini
+\i (00:00:11) FORM mini pad_browse  
+\f (00:00:11) Select a padstack:
+\i (00:00:13) fillin "C1206_Pad"
+\w (00:00:13) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:13) Using 'C1206_PAD.pad'.
+\i (00:00:17) FORM mini offsetx 0.000 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) prmed 
+\t (00:00:19) Exiting from Add Pin.
+\i (00:00:21) setwindow form.prmedit
+\i (00:00:21) FORM prmedit design  
+\i (00:00:23) FORM prmedit units Mils 
+\e (00:00:23) Change may cause round-off; run dbcheck.
+\i (00:00:26) FORM prmedit done  
+\w (00:00:26) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:26) setwindow pcb
+\i (00:00:26) trapsize 119
+\t (00:00:26) Performing DRC...
+\t (00:00:26) No DRC errors detected.
+\i (00:00:27) generaledit 
+\i (00:00:30) add pin 
+\t (00:00:30) Using 'C1206_PAD.pad'.
+\i (00:00:57) pick -59.1 0 
+\t (00:00:57) last pick:  -59.10  0.00
+\t (00:00:57) Using 'C1206_PAD.pad'.
+\i (00:01:05) pick 59.1 0 
+\t (00:01:05) last pick:  59.10  0.00
+\t (00:01:05) Using 'C1206_PAD.pad'.
+\i (00:01:07) done 
+\t (00:01:07) Exiting from Add Pin.
+\i (00:01:07) generaledit 
+\i (00:01:08) save 
+\f (00:01:08) C:/FPM0.064/MYSYM/C1206.dra: File Exists. Overwrite? 
+\i (00:01:09) fillin yes 
+\t (00:01:09) Symbol 'c1206.psm' created.
+\i (00:01:09) generaledit 
+\i (00:01:11) zoom out 1 
+\i (00:01:11) setwindow pcb
+\i (00:01:11) zoom out -6.68 7.85
+\i (00:01:11) trapsize 119
+\i (00:01:14) pick grid -43.36 60.49
+\t (00:01:14) last pick:  -43.34  59.10
+\i (00:01:14) zoom out 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom out -43.84 57.87
+\i (00:01:14) trapsize 119
+\i (00:01:14) zoom out 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom out -43.60 56.92
+\i (00:01:14) trapsize 119
+\i (00:01:35) zoom out 1 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) zoom out 34.29 -14.30
+\i (00:01:35) trapsize 119
+\i (00:02:07) save 
+\f (00:02:07) C:/FPM0.064/MYSYM/C1206.dra: File Exists. Overwrite? 
+\i (00:02:08) fillin yes 
+\t (00:02:09) Symbol 'c1206.psm' created.
+\i (00:02:09) generaledit 
+\i (00:02:11) exit 

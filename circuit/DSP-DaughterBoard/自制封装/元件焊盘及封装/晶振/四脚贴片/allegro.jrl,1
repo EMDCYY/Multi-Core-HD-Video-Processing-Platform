@@ -1,0 +1,43 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/晶振/四脚贴片/OSCCC.dra
+\i (00:00:02) trapsize 25
+\i (00:00:02) trapsize 24
+\i (00:00:02) trapsize 343
+\i (00:00:02) trapsize 21600
+\i (00:00:02) trapsize 22
+\i (00:00:04) trapsize 25
+\i (00:00:04) generaledit 
+\i (00:02:34) exit 
+ 
+\i (00:00:06) setwindow form.mini
+\i (00:00:06) FORM mini pad_browse  
+\f (00:00:06) Select a padstack:
+\i (00:00:12) fillin "Osccc_Pad"
+\w (00:00:13) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:13) Using 'OSCCC_PAD.pad'.
+\i (00:00:19) FORM mini offsetx 0.000 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) pick -0.8 1 
+\t (00:00:33) last pick:  -0.800  1.000
+\t (00:00:33) Using 'OSCCC_PAD.pad'.
+\i (00:00:42) pick -0.8 -1 
+\t (00:00:42) last pick:  -0.800  -1.000
+\t (00:00:42) Using 'OSCCC_PAD.pad'.
+\i (00:00:53) pick 0.8 -1 
+\t (00:00:53) last pick:  0.800  -1.000
+\t (00:00:53) Using 'OSCCC_PAD.pad'.
+\i (00:00:58) pick 0.8 1 
+\t (00:00:58) last pick:  0.800  1.000
+\t (00:00:58) Using 'OSCCC_PAD.pad'.
+\i (00:01:00) done 
+\t (00:01:00) Exiting from Add Pin.
+\i (00:01:00) generaledit 
+\i (00:01:01) save 
+\f (00:01:01) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/晶振/四脚贴片/OSCCC.dra: File Exists. Overwrite? 
+\i (00:01:01) fillin yes 
+\t (00:01:02) Symbol 'osccc.psm' created.
+\i (00:01:02) generaledit 
+\i (00:01:03) exit 

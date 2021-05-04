@@ -1,0 +1,7 @@
+\t (00:00:00) pad_designer 16.0 s003 (v16-0-87P) i86
+\t (00:00:00) 
+
+\i (00:00:03) setwindow form.padedit
+\i (00:00:03) FORM padedit layers  
+\i (00:00:04) FORM padedit crossbox YES 
+\i (00:00:06) pse_exit

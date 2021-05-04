@@ -1,0 +1,71 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.064/MYSYM/L0603.dra
+\i (00:00:02) trapsize 19
+\i (00:00:02) trapsize 119
+\i (00:00:02) trapsize 18755
+\i (00:00:02) trapsize 19
+\i (00:00:04) trapsize 19
+\i (00:00:04) generaledit 
+\i (00:00:09) prmed 
+\i (00:00:10) setwindow form.prmedit
+\i (00:00:10) FORM prmedit design  
+\i (00:00:13) FORM prmedit units Mils 
+\e (00:00:13) Change may cause round-off; run dbcheck.
+\i (00:00:14) FORM prmedit done  
+\w (00:00:14) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:14) setwindow pcb
+\i (00:00:14) trapsize 89
+\t (00:00:14) Performing DRC...
+\t (00:00:14) No DRC errors detected.
+\i (00:00:14) generaledit 
+\i (00:00:16) add pin 
+\i (00:00:19) setwindow form.mini
+\i (00:00:19) FORM mini pad_browse  
+\f (00:00:19) Select a padstack:
+\i (00:00:24) fillin "L0603_Pad"
+\t (00:00:24) Using 'L0603_PAD.pad'.
+\i (00:00:29) FORM mini offsetx 0.00 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) pick -31.5 0 
+\t (00:00:46) last pick:  -31.50  0.00
+\t (00:00:46) Using 'L0603_PAD.pad'.
+\i (00:00:52) pick 31.5 0 
+\t (00:00:52) last pick:  31.50  0.00
+\t (00:00:52) Using 'L0603_PAD.pad'.
+\i (00:00:54) done 
+\t (00:00:54) Exiting from Add Pin.
+\i (00:00:54) generaledit 
+\i (00:00:56) save 
+\f (00:00:56) C:/FPM0.064/MYSYM/L0603.dra: File Exists. Overwrite? 
+\i (00:00:56) fillin yes 
+\t (00:00:57) Symbol 'l0603.psm' created.
+\i (00:00:57) generaledit 
+\i (00:00:59) zoom out 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom out 55.19 -18.59
+\i (00:00:59) trapsize 89
+\i (00:01:00) zoom in 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom in 65.02 -11.62
+\i (00:01:00) trapsize 45
+\i (00:01:00) zoom out 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out 65.02 -11.62
+\i (00:01:00) trapsize 89
+\i (00:01:00) zoom out 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom out 64.66 -11.62
+\i (00:01:00) trapsize 89
+\i (00:01:01) zoom out 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom out 64.66 -11.62
+\i (00:01:01) trapsize 89
+\i (00:01:05) save 
+\f (00:01:05) C:/FPM0.064/MYSYM/L0603.dra: File Exists. Overwrite? 
+\i (00:01:05) fillin yes 
+\t (00:01:06) Symbol 'l0603.psm' created.
+\i (00:01:06) generaledit 
+\i (00:01:06) exit 

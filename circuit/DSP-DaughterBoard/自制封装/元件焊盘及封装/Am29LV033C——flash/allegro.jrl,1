@@ -1,0 +1,29 @@
+\t (00:00:00) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:00) 
+
+\t (00:00:00) Opening existing drawing...
+\d (00:00:00) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/Am29LV033C——flash/Am29LV033C_TS040.dra
+\i (00:00:01) trapsize 211
+\i (00:00:01) trapsize 202
+\i (00:00:01) trapsize 473
+\i (00:00:01) trapsize 76200
+\i (00:00:01) trapsize 63
+\i (00:00:03) trapsize 168
+\i (00:00:03) generaledit 
+\i (00:00:05) color192 
+\i (00:00:05) generaledit 
+\i (00:00:08) setwindow cvf.dialog
+\i (00:00:08) cvf global_invisible
+\i (00:00:14) cvf layer_tree_item 39
+\i (00:00:16) cvf apply
+\i (00:00:18) cvf layer_grid_vis 2 161 1
+\i (00:00:19) cvf apply
+\i (00:00:24) cvf layer_tree_item 42
+\i (00:00:26) cvf layer_tree_item 37
+\i (00:00:27) cvf layer_grid_vis 2 153 1
+\i (00:00:28) cvf apply
+\i (00:00:30) cvf cancel
+\i (00:00:31) setwindow pcb
+\i (00:00:31) exit 
+\f (00:00:31) Do you want to save the changes you made to Am29LV033C_TS040.dra?
+\i (00:00:32) fillin no 

@@ -1,0 +1,18 @@
+\t (00:00:03) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:03) 
+
+\t (00:00:03) Opening existing drawing...
+\d (00:00:03) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/74CBTLV1G125——压控开关/74CBTLV1G125_DCK.dra
+\i (00:00:03) trapsize 48
+\i (00:00:03) trapsize 46
+\i (00:00:03) trapsize 743
+\i (00:00:03) trapsize 46815
+\i (00:00:03) trapsize 48
+\i (00:00:07) trapsize 48
+\i (00:00:08) generaledit 
+\i (00:00:09) save 
+\f (00:00:09) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/74CBTLV1G125——压控开关/74CBTLV1G125_DCK.dra: File Exists. Overwrite? 
+\i (00:00:12) fillin yes 
+\t (00:00:13) Symbol '74cbtlv1g125_dck.psm' created.
+\i (00:00:13) generaledit 
+\i (00:01:27) exit 

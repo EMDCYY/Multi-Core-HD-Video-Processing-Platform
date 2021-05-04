@@ -1,0 +1,18 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/PI6CX100-00——压控晶体振荡器/PI6CX100-00_SOIC8.dra
+\i (00:00:02) trapsize 68
+\i (00:00:02) trapsize 65
+\i (00:00:02) trapsize 1047
+\i (00:00:02) trapsize 65985
+\i (00:00:02) trapsize 67
+\i (00:00:04) trapsize 67
+\i (00:00:04) generaledit 
+\i (00:00:06) save 
+\f (00:00:06) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/PI6CX100-00——压控晶体振荡器/PI6CX100-00_SOIC8.dra: File Exists. Overwrite? 
+\i (00:00:07) fillin yes 
+\t (00:00:07) Symbol 'pi6cx100-00_soic8.psm' created.
+\i (00:00:07) generaledit 
+\i (00:00:07) exit 

@@ -1,0 +1,46 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.064/MYSYM/LED0805.dra
+\i (00:00:02) trapsize 19
+\i (00:00:02) trapsize 298
+\i (00:00:02) trapsize 18755
+\i (00:00:02) trapsize 19
+\i (00:00:04) trapsize 19
+\i (00:00:04) generaledit 
+\i (00:00:07) prmed 
+\i (00:00:09) setwindow form.prmedit
+\i (00:00:09) FORM prmedit design  
+\i (00:00:12) FORM prmedit units Mils 
+\e (00:00:12) Change may cause round-off; run dbcheck.
+\i (00:00:13) FORM prmedit done  
+\w (00:00:13) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:13) setwindow pcb
+\i (00:00:13) trapsize 119
+\t (00:00:13) Performing DRC...
+\t (00:00:13) No DRC errors detected.
+\i (00:00:14) generaledit 
+\i (00:00:16) add pin 
+\i (00:00:17) setwindow form.mini
+\i (00:00:17) FORM mini pad_browse  
+\f (00:00:17) Select a padstack:
+\i (00:00:23) fillin "Led0805_Pad"
+\t (00:00:23) Using 'LED0805_PAD.pad'.
+\i (00:00:28) FORM mini offsetx 0.00 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) pick -35.43 0 
+\t (00:00:45) last pick:  -35.43  0.00
+\t (00:00:45) Using 'LED0805_PAD.pad'.
+\i (00:00:51) pick 35.43 0 
+\t (00:00:51) last pick:  35.43  0.00
+\t (00:00:51) Using 'LED0805_PAD.pad'.
+\i (00:00:52) done 
+\t (00:00:52) Exiting from Add Pin.
+\i (00:00:52) generaledit 
+\i (00:00:53) save 
+\f (00:00:53) C:/FPM0.064/MYSYM/LED0805.dra: File Exists. Overwrite? 
+\i (00:00:54) fillin yes 
+\t (00:00:54) Symbol 'led0805.psm' created.
+\i (00:00:54) generaledit 
+\i (00:00:55) exit 

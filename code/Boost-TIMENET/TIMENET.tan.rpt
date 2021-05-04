@@ -1,0 +1,451 @@
+Classic Timing Analyzer report for TIMENET
+Mon Mar 26 18:45:46 2012
+Quartus II Version 9.1 Build 222 10/21/2009 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Timing Analyzer Summary
+  3. Timing Analyzer Settings
+  4. Clock Settings Summary
+  5. Parallel Compilation
+  6. Clock Setup: 'CLK_12M'
+  7. tsu
+  8. tco
+  9. th
+ 10. Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Timing Analyzer Summary                                                                                                                                                     ;
++------------------------------+-------+---------------+----------------------------------+------------------+-------------------------+------------+----------+--------------+
+; Type                         ; Slack ; Required Time ; Actual Time                      ; From             ; To                      ; From Clock ; To Clock ; Failed Paths ;
++------------------------------+-------+---------------+----------------------------------+------------------+-------------------------+------------+----------+--------------+
+; Worst-case tsu               ; N/A   ; None          ; 2.387 ns                         ; SDATA_CDCL6010   ; SDATA_D                 ; --         ; CLK_12M  ; 0            ;
+; Worst-case tco               ; N/A   ; None          ; 8.690 ns                         ; EN_DVDD_1V8~reg0 ; EN_DVDD_1V8             ; CLK_12M    ; --       ; 0            ;
+; Worst-case th                ; N/A   ; None          ; -1.275 ns                        ; SDATA_CDCE906    ; SDATA_D                 ; --         ; CLK_12M  ; 0            ;
+; Clock Setup: 'CLK_12M'       ; N/A   ; None          ; 46.73 MHz ( period = 21.399 ns ) ; COUNTER[1]       ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; 0            ;
+; Total number of failed paths ;       ;               ;                                  ;                  ;                         ;            ;          ; 0            ;
++------------------------------+-------+---------------+----------------------------------+------------------+-------------------------+------------+----------+--------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Timing Analyzer Settings                                                                                                                            ;
++------------------------------------------------------------------------------------------------------+--------------------+------+----+-------------+
+; Option                                                                                               ; Setting            ; From ; To ; Entity Name ;
++------------------------------------------------------------------------------------------------------+--------------------+------+----+-------------+
+; Device Name                                                                                          ; EPM240T100C5       ;      ;    ;             ;
+; Timing Models                                                                                        ; Final              ;      ;    ;             ;
+; Default hold multicycle                                                                              ; Same as Multicycle ;      ;    ;             ;
+; Cut paths between unrelated clock domains                                                            ; On                 ;      ;    ;             ;
+; Cut off read during write signal paths                                                               ; On                 ;      ;    ;             ;
+; Cut off feedback from I/O pins                                                                       ; On                 ;      ;    ;             ;
+; Report Combined Fast/Slow Timing                                                                     ; Off                ;      ;    ;             ;
+; Ignore Clock Settings                                                                                ; Off                ;      ;    ;             ;
+; Analyze latches as synchronous elements                                                              ; On                 ;      ;    ;             ;
+; Enable Recovery/Removal analysis                                                                     ; Off                ;      ;    ;             ;
+; Enable Clock Latency                                                                                 ; Off                ;      ;    ;             ;
+; Use TimeQuest Timing Analyzer                                                                        ; Off                ;      ;    ;             ;
+; Minimum Core Junction Temperature                                                                    ; 0                  ;      ;    ;             ;
+; Maximum Core Junction Temperature                                                                    ; 85                 ;      ;    ;             ;
+; Number of source nodes to report per destination node                                                ; 10                 ;      ;    ;             ;
+; Number of destination nodes to report                                                                ; 10                 ;      ;    ;             ;
+; Number of paths to report                                                                            ; 200                ;      ;    ;             ;
+; Report Minimum Timing Checks                                                                         ; Off                ;      ;    ;             ;
+; Use Fast Timing Models                                                                               ; Off                ;      ;    ;             ;
+; Report IO Paths Separately                                                                           ; Off                ;      ;    ;             ;
+; Perform Multicorner Analysis                                                                         ; Off                ;      ;    ;             ;
+; Reports the worst-case path for each clock domain and analysis                                       ; Off                ;      ;    ;             ;
+; Reports worst-case timing paths for each clock domain and analysis                                   ; On                 ;      ;    ;             ;
+; Specifies the maximum number of worst-case timing paths to report for each clock domain and analysis ; 100                ;      ;    ;             ;
+; Removes common clock path pessimism (CCPP) during slack computation                                  ; Off                ;      ;    ;             ;
+; Output I/O Timing Endpoint                                                                           ; Near End           ;      ;    ;             ;
++------------------------------------------------------------------------------------------------------+--------------------+------+----+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Settings Summary                                                                                                                                                             ;
++-----------------+--------------------+----------+------------------+---------------+--------------+----------+-----------------------+---------------------+--------+--------------+
+; Clock Node Name ; Clock Setting Name ; Type     ; Fmax Requirement ; Early Latency ; Late Latency ; Based on ; Multiply Base Fmax by ; Divide Base Fmax by ; Offset ; Phase offset ;
++-----------------+--------------------+----------+------------------+---------------+--------------+----------+-----------------------+---------------------+--------+--------------+
+; CLK_12M         ;                    ; User Pin ; None             ; 0.000 ns      ; 0.000 ns     ; --       ; N/A                   ; N/A                 ; N/A    ;              ;
++-----------------+--------------------+----------+------------------+---------------+--------------+----------+-----------------------+---------------------+--------+--------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 2           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     1 processor            ; 100.0%      ;
+;     2 processors           ;   0.0%      ;
++----------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clock Setup: 'CLK_12M'                                                                                                                                                                                                                                        ;
++-----------------------------------------+-----------------------------------------------------+-------------------------+-------------------------+------------+----------+-----------------------------+---------------------------+-------------------------+
+; Slack                                   ; Actual fmax (period)                                ; From                    ; To                      ; From Clock ; To Clock ; Required Setup Relationship ; Required Longest P2P Time ; Actual Longest P2P Time ;
++-----------------------------------------+-----------------------------------------------------+-------------------------+-------------------------+------------+----------+-----------------------------+---------------------------+-------------------------+
+; N/A                                     ; 46.73 MHz ( period = 21.399 ns )                    ; COUNTER[1]              ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 20.690 ns               ;
+; N/A                                     ; 47.12 MHz ( period = 21.221 ns )                    ; COUNTER[2]              ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 20.512 ns               ;
+; N/A                                     ; 47.45 MHz ( period = 21.075 ns )                    ; COUNTER[3]              ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 20.366 ns               ;
+; N/A                                     ; 47.74 MHz ( period = 20.946 ns )                    ; COUNTER[10]             ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 20.237 ns               ;
+; N/A                                     ; 47.82 MHz ( period = 20.913 ns )                    ; COUNTER[8]              ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 20.204 ns               ;
+; N/A                                     ; 48.02 MHz ( period = 20.825 ns )                    ; COUNTER[0]              ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 20.116 ns               ;
+; N/A                                     ; 48.59 MHz ( period = 20.580 ns )                    ; COUNTER[9]              ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 19.871 ns               ;
+; N/A                                     ; 48.93 MHz ( period = 20.439 ns )                    ; COUNTER[6]              ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 19.730 ns               ;
+; N/A                                     ; 49.09 MHz ( period = 20.369 ns )                    ; COUNTER[11]             ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 19.660 ns               ;
+; N/A                                     ; 49.13 MHz ( period = 20.356 ns )                    ; COUNTER[5]              ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 19.647 ns               ;
+; N/A                                     ; 49.30 MHz ( period = 20.282 ns )                    ; COUNTER[4]              ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 19.573 ns               ;
+; N/A                                     ; 49.77 MHz ( period = 20.091 ns )                    ; COUNTER[7]              ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 19.382 ns               ;
+; N/A                                     ; 49.93 MHz ( period = 20.027 ns )                    ; COUNTER[1]              ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 19.318 ns               ;
+; N/A                                     ; 50.38 MHz ( period = 19.849 ns )                    ; COUNTER[2]              ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 19.140 ns               ;
+; N/A                                     ; 50.75 MHz ( period = 19.703 ns )                    ; COUNTER[3]              ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.994 ns               ;
+; N/A                                     ; 51.09 MHz ( period = 19.574 ns )                    ; COUNTER[10]             ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.865 ns               ;
+; N/A                                     ; 51.17 MHz ( period = 19.541 ns )                    ; COUNTER[8]              ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.832 ns               ;
+; N/A                                     ; 51.41 MHz ( period = 19.453 ns )                    ; COUNTER[0]              ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.744 ns               ;
+; N/A                                     ; 51.99 MHz ( period = 19.234 ns )                    ; COUNTER[1]              ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.525 ns               ;
+; N/A                                     ; 52.06 MHz ( period = 19.208 ns )                    ; COUNTER[9]              ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.499 ns               ;
+; N/A                                     ; 52.45 MHz ( period = 19.067 ns )                    ; COUNTER[6]              ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.358 ns               ;
+; N/A                                     ; 52.48 MHz ( period = 19.056 ns )                    ; kickoff_num_CDCL6010[0] ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.347 ns               ;
+; N/A                                     ; 52.48 MHz ( period = 19.056 ns )                    ; COUNTER[2]              ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.347 ns               ;
+; N/A                                     ; 52.64 MHz ( period = 18.997 ns )                    ; COUNTER[11]             ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.288 ns               ;
+; N/A                                     ; 52.68 MHz ( period = 18.984 ns )                    ; COUNTER[5]              ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.275 ns               ;
+; N/A                                     ; 52.88 MHz ( period = 18.910 ns )                    ; COUNTER[4]              ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.201 ns               ;
+; N/A                                     ; 52.88 MHz ( period = 18.910 ns )                    ; COUNTER[3]              ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.201 ns               ;
+; N/A                                     ; 53.25 MHz ( period = 18.781 ns )                    ; COUNTER[10]             ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.072 ns               ;
+; N/A                                     ; 53.34 MHz ( period = 18.748 ns )                    ; COUNTER[8]              ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.039 ns               ;
+; N/A                                     ; 53.42 MHz ( period = 18.719 ns )                    ; COUNTER[7]              ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 18.010 ns               ;
+; N/A                                     ; 53.59 MHz ( period = 18.660 ns )                    ; COUNTER[0]              ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 17.951 ns               ;
+; N/A                                     ; 54.30 MHz ( period = 18.415 ns )                    ; COUNTER[9]              ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 17.706 ns               ;
+; N/A                                     ; 54.72 MHz ( period = 18.274 ns )                    ; COUNTER[6]              ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 17.565 ns               ;
+; N/A                                     ; 54.84 MHz ( period = 18.236 ns )                    ; kickoff_num_CDCL6010[2] ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 17.527 ns               ;
+; N/A                                     ; 54.93 MHz ( period = 18.204 ns )                    ; COUNTER[11]             ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 17.495 ns               ;
+; N/A                                     ; 54.97 MHz ( period = 18.191 ns )                    ; COUNTER[5]              ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 17.482 ns               ;
+; N/A                                     ; 55.20 MHz ( period = 18.117 ns )                    ; COUNTER[4]              ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 17.408 ns               ;
+; N/A                                     ; 55.78 MHz ( period = 17.926 ns )                    ; COUNTER[7]              ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 17.217 ns               ;
+; N/A                                     ; 55.95 MHz ( period = 17.873 ns )                    ; kickoff_num_CDCL6010[1] ; kickoff_num_CDCL6010[2] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 17.164 ns               ;
+; N/A                                     ; 56.55 MHz ( period = 17.684 ns )                    ; kickoff_num_CDCL6010[0] ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 16.975 ns               ;
+; N/A                                     ; 56.65 MHz ( period = 17.651 ns )                    ; COUNTER[1]              ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 16.942 ns               ;
+; N/A                                     ; 57.23 MHz ( period = 17.473 ns )                    ; COUNTER[2]              ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 16.764 ns               ;
+; N/A                                     ; 57.71 MHz ( period = 17.327 ns )                    ; COUNTER[3]              ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 16.618 ns               ;
+; N/A                                     ; 58.15 MHz ( period = 17.198 ns )                    ; COUNTER[10]             ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 16.489 ns               ;
+; N/A                                     ; 58.26 MHz ( period = 17.165 ns )                    ; COUNTER[8]              ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 16.456 ns               ;
+; N/A                                     ; 58.56 MHz ( period = 17.077 ns )                    ; COUNTER[0]              ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 16.368 ns               ;
+; N/A                                     ; 59.20 MHz ( period = 16.891 ns )                    ; kickoff_num_CDCL6010[0] ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 16.182 ns               ;
+; N/A                                     ; 59.30 MHz ( period = 16.864 ns )                    ; kickoff_num_CDCL6010[2] ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 16.155 ns               ;
+; N/A                                     ; 59.41 MHz ( period = 16.832 ns )                    ; COUNTER[9]              ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 16.123 ns               ;
+; N/A                                     ; 59.91 MHz ( period = 16.691 ns )                    ; COUNTER[6]              ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 15.982 ns               ;
+; N/A                                     ; 60.16 MHz ( period = 16.621 ns )                    ; COUNTER[11]             ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 15.912 ns               ;
+; N/A                                     ; 60.21 MHz ( period = 16.608 ns )                    ; COUNTER[5]              ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 15.899 ns               ;
+; N/A                                     ; 60.48 MHz ( period = 16.534 ns )                    ; COUNTER[4]              ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 15.825 ns               ;
+; N/A                                     ; 60.60 MHz ( period = 16.501 ns )                    ; kickoff_num_CDCL6010[1] ; kickoff                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 15.792 ns               ;
+; N/A                                     ; 61.19 MHz ( period = 16.343 ns )                    ; COUNTER[7]              ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 15.634 ns               ;
+; N/A                                     ; 62.22 MHz ( period = 16.071 ns )                    ; kickoff_num_CDCL6010[2] ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 15.362 ns               ;
+; N/A                                     ; 63.52 MHz ( period = 15.742 ns )                    ; kickoff_num_CDCL6010[0] ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 15.033 ns               ;
+; N/A                                     ; 63.66 MHz ( period = 15.708 ns )                    ; kickoff_num_CDCL6010[1] ; kickoff_num_CDCL6010[1] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 14.999 ns               ;
+; N/A                                     ; 66.03 MHz ( period = 15.144 ns )                    ; kickoff_num_CDCL6010[2] ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 14.435 ns               ;
+; N/A                                     ; 68.79 MHz ( period = 14.538 ns )                    ; kickoff_num_CDCL6010[1] ; kickoff_num_CDCL6010[0] ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 13.829 ns               ;
+; N/A                                     ; 71.11 MHz ( period = 14.062 ns )                    ; COUNTER[6]              ; GET_BIT                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 13.353 ns               ;
+; N/A                                     ; 72.58 MHz ( period = 13.778 ns )                    ; COUNTER[6]              ; STATE[0]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 13.069 ns               ;
+; N/A                                     ; 72.64 MHz ( period = 13.767 ns )                    ; COUNTER[6]              ; STATE[2]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 13.058 ns               ;
+; N/A                                     ; 74.28 MHz ( period = 13.463 ns )                    ; COUNTER[0]              ; GET_BIT                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.754 ns               ;
+; N/A                                     ; 74.56 MHz ( period = 13.412 ns )                    ; COUNTER[9]              ; GET_BIT                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.703 ns               ;
+; N/A                                     ; 75.09 MHz ( period = 13.317 ns )                    ; COUNTER[5]              ; GET_BIT                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.608 ns               ;
+; N/A                                     ; 75.28 MHz ( period = 13.284 ns )                    ; COUNTER[6]              ; SCLK_CDCE906~reg0       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.575 ns               ;
+; N/A                                     ; 75.28 MHz ( period = 13.284 ns )                    ; COUNTER[6]              ; SCLK_CDCE906~en         ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.575 ns               ;
+; N/A                                     ; 75.28 MHz ( period = 13.284 ns )                    ; COUNTER[6]              ; SDATA_CDCE906~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.575 ns               ;
+; N/A                                     ; 75.80 MHz ( period = 13.193 ns )                    ; COUNTER[2]              ; GET_BIT                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.484 ns               ;
+; N/A                                     ; 75.88 MHz ( period = 13.179 ns )                    ; COUNTER[0]              ; STATE[0]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.470 ns               ;
+; N/A                                     ; 75.94 MHz ( period = 13.168 ns )                    ; COUNTER[0]              ; STATE[2]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.459 ns               ;
+; N/A                                     ; 76.14 MHz ( period = 13.134 ns )                    ; COUNTER[1]              ; GET_BIT                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.425 ns               ;
+; N/A                                     ; 76.17 MHz ( period = 13.128 ns )                    ; COUNTER[9]              ; STATE[0]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.419 ns               ;
+; N/A                                     ; 76.24 MHz ( period = 13.117 ns )                    ; COUNTER[9]              ; STATE[2]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.408 ns               ;
+; N/A                                     ; 76.73 MHz ( period = 13.033 ns )                    ; COUNTER[5]              ; STATE[0]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.324 ns               ;
+; N/A                                     ; 76.79 MHz ( period = 13.022 ns )                    ; COUNTER[5]              ; STATE[2]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.313 ns               ;
+; N/A                                     ; 77.08 MHz ( period = 12.974 ns )                    ; COUNTER[8]              ; SCLK_CDCE906~reg0       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.265 ns               ;
+; N/A                                     ; 77.08 MHz ( period = 12.974 ns )                    ; COUNTER[8]              ; SCLK_CDCE906~en         ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.265 ns               ;
+; N/A                                     ; 77.08 MHz ( period = 12.974 ns )                    ; COUNTER[8]              ; SDATA_CDCE906~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.265 ns               ;
+; N/A                                     ; 77.30 MHz ( period = 12.936 ns )                    ; COUNTER[7]              ; SCLK_CDCE906~reg0       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.227 ns               ;
+; N/A                                     ; 77.30 MHz ( period = 12.936 ns )                    ; COUNTER[7]              ; SCLK_CDCE906~en         ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.227 ns               ;
+; N/A                                     ; 77.30 MHz ( period = 12.936 ns )                    ; COUNTER[7]              ; SDATA_CDCE906~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.227 ns               ;
+; N/A                                     ; 77.47 MHz ( period = 12.909 ns )                    ; COUNTER[2]              ; STATE[0]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.200 ns               ;
+; N/A                                     ; 77.53 MHz ( period = 12.898 ns )                    ; COUNTER[2]              ; STATE[2]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.189 ns               ;
+; N/A                                     ; 77.82 MHz ( period = 12.850 ns )                    ; COUNTER[1]              ; STATE[0]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.141 ns               ;
+; N/A                                     ; 77.89 MHz ( period = 12.839 ns )                    ; COUNTER[1]              ; STATE[2]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 12.130 ns               ;
+; N/A                                     ; 79.15 MHz ( period = 12.634 ns )                    ; COUNTER[6]              ; wait_for_ack            ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.925 ns               ;
+; N/A                                     ; 79.20 MHz ( period = 12.627 ns )                    ; COUNTER[6]              ; SDATA_D                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.918 ns               ;
+; N/A                                     ; 79.66 MHz ( period = 12.554 ns )                    ; COUNTER[5]              ; SCLK_CDCE906~reg0       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.845 ns               ;
+; N/A                                     ; 79.66 MHz ( period = 12.554 ns )                    ; COUNTER[5]              ; SCLK_CDCE906~en         ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.845 ns               ;
+; N/A                                     ; 79.66 MHz ( period = 12.554 ns )                    ; COUNTER[5]              ; SDATA_CDCE906~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.845 ns               ;
+; N/A                                     ; 79.73 MHz ( period = 12.542 ns )                    ; COUNTER[4]              ; GET_BIT                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.833 ns               ;
+; N/A                                     ; 79.79 MHz ( period = 12.533 ns )                    ; COUNTER[1]              ; SCLK_CDCE906~reg0       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.824 ns               ;
+; N/A                                     ; 79.79 MHz ( period = 12.533 ns )                    ; COUNTER[1]              ; SCLK_CDCE906~en         ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.824 ns               ;
+; N/A                                     ; 79.79 MHz ( period = 12.533 ns )                    ; COUNTER[1]              ; SDATA_CDCE906~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.824 ns               ;
+; N/A                                     ; 80.57 MHz ( period = 12.411 ns )                    ; COUNTER[0]              ; SCLK_CDCE906~reg0       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.702 ns               ;
+; N/A                                     ; 80.57 MHz ( period = 12.411 ns )                    ; COUNTER[0]              ; SCLK_CDCE906~en         ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.702 ns               ;
+; N/A                                     ; 80.57 MHz ( period = 12.411 ns )                    ; COUNTER[0]              ; SDATA_CDCE906~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.702 ns               ;
+; N/A                                     ; 80.59 MHz ( period = 12.409 ns )                    ; COUNTER[8]              ; GET_BIT                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.700 ns               ;
+; N/A                                     ; 80.91 MHz ( period = 12.360 ns )                    ; COUNTER[9]              ; SCLK_CDCE906~reg0       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.651 ns               ;
+; N/A                                     ; 80.91 MHz ( period = 12.360 ns )                    ; COUNTER[9]              ; SCLK_CDCE906~en         ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.651 ns               ;
+; N/A                                     ; 80.91 MHz ( period = 12.360 ns )                    ; COUNTER[9]              ; SDATA_CDCE906~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.651 ns               ;
+; N/A                                     ; 81.19 MHz ( period = 12.317 ns )                    ; COUNTER[8]              ; SDATA_D                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.608 ns               ;
+; N/A                                     ; 81.44 MHz ( period = 12.279 ns )                    ; COUNTER[7]              ; SDATA_D                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.570 ns               ;
+; N/A                                     ; 81.58 MHz ( period = 12.258 ns )                    ; COUNTER[4]              ; STATE[0]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.549 ns               ;
+; N/A                                     ; 81.65 MHz ( period = 12.247 ns )                    ; COUNTER[4]              ; STATE[2]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.538 ns               ;
+; N/A                                     ; 82.14 MHz ( period = 12.174 ns )                    ; COUNTER[3]              ; GET_BIT                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.465 ns               ;
+; N/A                                     ; 82.37 MHz ( period = 12.141 ns )                    ; COUNTER[2]              ; SCLK_CDCE906~reg0       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.432 ns               ;
+; N/A                                     ; 82.37 MHz ( period = 12.141 ns )                    ; COUNTER[2]              ; SCLK_CDCE906~en         ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.432 ns               ;
+; N/A                                     ; 82.37 MHz ( period = 12.141 ns )                    ; COUNTER[2]              ; SDATA_CDCE906~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.432 ns               ;
+; N/A                                     ; 82.47 MHz ( period = 12.125 ns )                    ; COUNTER[8]              ; STATE[0]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.416 ns               ;
+; N/A                                     ; 82.54 MHz ( period = 12.115 ns )                    ; COUNTER[6]              ; SCLK_CDCL6010~reg0      ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.406 ns               ;
+; N/A                                     ; 82.54 MHz ( period = 12.115 ns )                    ; COUNTER[6]              ; SCLK_CDCL6010~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.406 ns               ;
+; N/A                                     ; 82.54 MHz ( period = 12.115 ns )                    ; COUNTER[6]              ; SDATA_CDCL6010~en       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.406 ns               ;
+; N/A                                     ; 82.55 MHz ( period = 12.114 ns )                    ; COUNTER[8]              ; STATE[2]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.405 ns               ;
+; N/A                                     ; 83.09 MHz ( period = 12.035 ns )                    ; COUNTER[0]              ; wait_for_ack            ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.326 ns               ;
+; N/A                                     ; 83.44 MHz ( period = 11.984 ns )                    ; COUNTER[9]              ; wait_for_ack            ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.275 ns               ;
+; N/A                                     ; 83.97 MHz ( period = 11.909 ns )                    ; COUNTER[1]              ; SDATA_D                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.200 ns               ;
+; N/A                                     ; 84.05 MHz ( period = 11.897 ns )                    ; COUNTER[5]              ; SDATA_D                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.188 ns               ;
+; N/A                                     ; 84.10 MHz ( period = 11.890 ns )                    ; COUNTER[3]              ; STATE[0]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.181 ns               ;
+; N/A                                     ; 84.11 MHz ( period = 11.889 ns )                    ; COUNTER[5]              ; wait_for_ack            ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.180 ns               ;
+; N/A                                     ; 84.18 MHz ( period = 11.879 ns )                    ; COUNTER[3]              ; STATE[2]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.170 ns               ;
+; N/A                                     ; 84.36 MHz ( period = 11.854 ns )                    ; COUNTER[0]              ; SDATA_D                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.145 ns               ;
+; N/A                                     ; 84.72 MHz ( period = 11.803 ns )                    ; COUNTER[9]              ; SDATA_D                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.094 ns               ;
+; N/A                                     ; 84.88 MHz ( period = 11.781 ns )                    ; COUNTER[3]              ; SCLK_CDCE906~reg0       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.072 ns               ;
+; N/A                                     ; 84.88 MHz ( period = 11.781 ns )                    ; COUNTER[3]              ; SCLK_CDCE906~en         ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.072 ns               ;
+; N/A                                     ; 84.88 MHz ( period = 11.781 ns )                    ; COUNTER[3]              ; SDATA_CDCE906~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.072 ns               ;
+; N/A                                     ; 85.00 MHz ( period = 11.765 ns )                    ; COUNTER[2]              ; wait_for_ack            ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 11.056 ns               ;
+; N/A                                     ; 85.43 MHz ( period = 11.706 ns )                    ; COUNTER[1]              ; wait_for_ack            ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.997 ns               ;
+; N/A                                     ; 85.47 MHz ( period = 11.700 ns )                    ; COUNTER[8]              ; SCLK_CDCL6010~reg0      ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.991 ns               ;
+; N/A                                     ; 85.47 MHz ( period = 11.700 ns )                    ; COUNTER[8]              ; SCLK_CDCL6010~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.991 ns               ;
+; N/A                                     ; 85.47 MHz ( period = 11.700 ns )                    ; COUNTER[8]              ; SDATA_CDCL6010~en       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.991 ns               ;
+; N/A                                     ; 85.76 MHz ( period = 11.660 ns )                    ; COUNTER[4]              ; SCLK_CDCE906~reg0       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.951 ns               ;
+; N/A                                     ; 85.76 MHz ( period = 11.660 ns )                    ; COUNTER[4]              ; SCLK_CDCE906~en         ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.951 ns               ;
+; N/A                                     ; 85.76 MHz ( period = 11.660 ns )                    ; COUNTER[4]              ; SDATA_CDCE906~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.951 ns               ;
+; N/A                                     ; 85.91 MHz ( period = 11.640 ns )                    ; COUNTER[7]              ; SDATA_CDCL6010~en       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.931 ns               ;
+; N/A                                     ; 86.33 MHz ( period = 11.584 ns )                    ; COUNTER[2]              ; SDATA_D                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.875 ns               ;
+; N/A                                     ; 86.36 MHz ( period = 11.579 ns )                    ; COUNTER[6]              ; STATE[1]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.870 ns               ;
+; N/A                                     ; 86.42 MHz ( period = 11.571 ns )                    ; COUNTER[1]              ; SCLK_CDCL6010~reg0      ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.862 ns               ;
+; N/A                                     ; 86.42 MHz ( period = 11.571 ns )                    ; COUNTER[1]              ; SCLK_CDCL6010~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.862 ns               ;
+; N/A                                     ; 86.42 MHz ( period = 11.571 ns )                    ; COUNTER[1]              ; SDATA_CDCL6010~en       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.862 ns               ;
+; N/A                                     ; 86.84 MHz ( period = 11.516 ns )                    ; COUNTER[0]              ; SCLK_CDCL6010~reg0      ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.807 ns               ;
+; N/A                                     ; 86.84 MHz ( period = 11.516 ns )                    ; COUNTER[0]              ; SCLK_CDCL6010~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.807 ns               ;
+; N/A                                     ; 86.84 MHz ( period = 11.516 ns )                    ; COUNTER[0]              ; SDATA_CDCL6010~en       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.807 ns               ;
+; N/A                                     ; 87.22 MHz ( period = 11.465 ns )                    ; COUNTER[9]              ; SCLK_CDCL6010~reg0      ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.756 ns               ;
+; N/A                                     ; 87.22 MHz ( period = 11.465 ns )                    ; COUNTER[9]              ; SCLK_CDCL6010~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.756 ns               ;
+; N/A                                     ; 87.22 MHz ( period = 11.465 ns )                    ; COUNTER[9]              ; SDATA_CDCL6010~en       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.756 ns               ;
+; N/A                                     ; 87.90 MHz ( period = 11.376 ns )                    ; COUNTER[7]              ; GET_BIT                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.667 ns               ;
+; N/A                                     ; 87.95 MHz ( period = 11.370 ns )                    ; COUNTER[5]              ; SCLK_CDCL6010~reg0      ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.661 ns               ;
+; N/A                                     ; 87.95 MHz ( period = 11.370 ns )                    ; COUNTER[5]              ; SCLK_CDCL6010~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.661 ns               ;
+; N/A                                     ; 87.95 MHz ( period = 11.370 ns )                    ; COUNTER[5]              ; SDATA_CDCL6010~en       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.661 ns               ;
+; N/A                                     ; 88.26 MHz ( period = 11.330 ns )                    ; COUNTER[7]              ; SCLK_CDCL6010~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.621 ns               ;
+; N/A                                     ; 88.28 MHz ( period = 11.328 ns )                    ; COUNTER[10]             ; SCLK_CDCE906~reg0       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.619 ns               ;
+; N/A                                     ; 88.28 MHz ( period = 11.328 ns )                    ; COUNTER[10]             ; SCLK_CDCE906~en         ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.619 ns               ;
+; N/A                                     ; 88.28 MHz ( period = 11.328 ns )                    ; COUNTER[10]             ; SDATA_CDCE906~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.619 ns               ;
+; N/A                                     ; 88.64 MHz ( period = 11.281 ns )                    ; COUNTER[1]              ; COUNTER[5]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.572 ns               ;
+; N/A                                     ; 88.64 MHz ( period = 11.281 ns )                    ; COUNTER[1]              ; COUNTER[0]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.572 ns               ;
+; N/A                                     ; 88.64 MHz ( period = 11.281 ns )                    ; COUNTER[1]              ; COUNTER[4]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.572 ns               ;
+; N/A                                     ; 88.64 MHz ( period = 11.281 ns )                    ; COUNTER[1]              ; COUNTER[3]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.572 ns               ;
+; N/A                                     ; 88.64 MHz ( period = 11.281 ns )                    ; COUNTER[1]              ; COUNTER[2]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.572 ns               ;
+; N/A                                     ; 88.64 MHz ( period = 11.281 ns )                    ; COUNTER[1]              ; COUNTER[1]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.572 ns               ;
+; N/A                                     ; 88.92 MHz ( period = 11.246 ns )                    ; COUNTER[2]              ; SCLK_CDCL6010~reg0      ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.537 ns               ;
+; N/A                                     ; 88.92 MHz ( period = 11.246 ns )                    ; COUNTER[2]              ; SCLK_CDCL6010~en        ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.537 ns               ;
+; N/A                                     ; 88.92 MHz ( period = 11.246 ns )                    ; COUNTER[2]              ; SDATA_CDCL6010~en       ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.537 ns               ;
+; N/A                                     ; 88.97 MHz ( period = 11.240 ns )                    ; COUNTER[1]              ; COUNTER[9]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.531 ns               ;
+; N/A                                     ; 88.97 MHz ( period = 11.240 ns )                    ; COUNTER[1]              ; COUNTER[11]             ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.531 ns               ;
+; N/A                                     ; 88.97 MHz ( period = 11.240 ns )                    ; COUNTER[1]              ; COUNTER[6]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.531 ns               ;
+; N/A                                     ; 88.97 MHz ( period = 11.240 ns )                    ; COUNTER[1]              ; COUNTER[7]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.531 ns               ;
+; N/A                                     ; 88.97 MHz ( period = 11.240 ns )                    ; COUNTER[1]              ; COUNTER[8]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.531 ns               ;
+; N/A                                     ; 88.97 MHz ( period = 11.240 ns )                    ; COUNTER[1]              ; COUNTER[10]             ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.531 ns               ;
+; N/A                                     ; 89.65 MHz ( period = 11.154 ns )                    ; COUNTER[3]              ; SDATA_D                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.445 ns               ;
+; N/A                                     ; 89.75 MHz ( period = 11.142 ns )                    ; COUNTER[10]             ; GET_BIT                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.433 ns               ;
+; N/A                                     ; 89.98 MHz ( period = 11.114 ns )                    ; COUNTER[4]              ; wait_for_ack            ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.405 ns               ;
+; N/A                                     ; 90.07 MHz ( period = 11.103 ns )                    ; COUNTER[2]              ; COUNTER[5]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.394 ns               ;
+; N/A                                     ; 90.07 MHz ( period = 11.103 ns )                    ; COUNTER[2]              ; COUNTER[0]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.394 ns               ;
+; N/A                                     ; 90.07 MHz ( period = 11.103 ns )                    ; COUNTER[2]              ; COUNTER[4]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.394 ns               ;
+; N/A                                     ; 90.07 MHz ( period = 11.103 ns )                    ; COUNTER[2]              ; COUNTER[3]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.394 ns               ;
+; N/A                                     ; 90.07 MHz ( period = 11.103 ns )                    ; COUNTER[2]              ; COUNTER[2]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.394 ns               ;
+; N/A                                     ; 90.07 MHz ( period = 11.103 ns )                    ; COUNTER[2]              ; COUNTER[1]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.394 ns               ;
+; N/A                                     ; 90.16 MHz ( period = 11.092 ns )                    ; COUNTER[7]              ; STATE[0]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.383 ns               ;
+; N/A                                     ; 90.24 MHz ( period = 11.081 ns )                    ; COUNTER[7]              ; STATE[2]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.372 ns               ;
+; N/A                                     ; 90.40 MHz ( period = 11.062 ns )                    ; COUNTER[2]              ; COUNTER[9]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.353 ns               ;
+; N/A                                     ; 90.40 MHz ( period = 11.062 ns )                    ; COUNTER[2]              ; COUNTER[11]             ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.353 ns               ;
+; N/A                                     ; 90.40 MHz ( period = 11.062 ns )                    ; COUNTER[2]              ; COUNTER[6]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.353 ns               ;
+; N/A                                     ; 90.40 MHz ( period = 11.062 ns )                    ; COUNTER[2]              ; COUNTER[7]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.353 ns               ;
+; N/A                                     ; 90.40 MHz ( period = 11.062 ns )                    ; COUNTER[2]              ; COUNTER[8]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.353 ns               ;
+; N/A                                     ; 90.40 MHz ( period = 11.062 ns )                    ; COUNTER[2]              ; COUNTER[10]             ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.353 ns               ;
+; N/A                                     ; 90.42 MHz ( period = 11.059 ns )                    ; WORD_ADDR[1]            ; SMBUS_WORD[6]           ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.350 ns               ;
+; N/A                                     ; 90.88 MHz ( period = 11.003 ns )                    ; COUNTER[4]              ; SDATA_D                 ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.294 ns               ;
+; N/A                                     ; 91.07 MHz ( period = 10.981 ns )                    ; COUNTER[8]              ; wait_for_ack            ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.272 ns               ;
+; N/A                                     ; 91.07 MHz ( period = 10.980 ns )                    ; COUNTER[0]              ; STATE[1]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.271 ns               ;
+; N/A                                     ; 91.27 MHz ( period = 10.957 ns )                    ; COUNTER[3]              ; COUNTER[5]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.248 ns               ;
+; N/A                                     ; 91.27 MHz ( period = 10.957 ns )                    ; COUNTER[3]              ; COUNTER[0]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.248 ns               ;
+; N/A                                     ; 91.27 MHz ( period = 10.957 ns )                    ; COUNTER[3]              ; COUNTER[4]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.248 ns               ;
+; N/A                                     ; 91.27 MHz ( period = 10.957 ns )                    ; COUNTER[3]              ; COUNTER[3]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.248 ns               ;
+; N/A                                     ; 91.27 MHz ( period = 10.957 ns )                    ; COUNTER[3]              ; COUNTER[2]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.248 ns               ;
+; N/A                                     ; 91.27 MHz ( period = 10.957 ns )                    ; COUNTER[3]              ; COUNTER[1]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.248 ns               ;
+; N/A                                     ; 91.50 MHz ( period = 10.929 ns )                    ; COUNTER[9]              ; STATE[1]                ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.220 ns               ;
+; N/A                                     ; 91.61 MHz ( period = 10.916 ns )                    ; COUNTER[3]              ; COUNTER[8]              ; CLK_12M    ; CLK_12M  ; None                        ; None                      ; 10.207 ns               ;
+; Timing analysis restricted to 200 rows. ; To change the limit use Settings (Assignments menu) ;                         ;                         ;            ;          ;                             ;                           ;                         ;
++-----------------------------------------+-----------------------------------------------------+-------------------------+-------------------------+------------+----------+-----------------------------+---------------------------+-------------------------+
+
+
++-------------------------------------------------------------------------+
+; tsu                                                                     ;
++-------+--------------+------------+----------------+---------+----------+
+; Slack ; Required tsu ; Actual tsu ; From           ; To      ; To Clock ;
++-------+--------------+------------+----------------+---------+----------+
+; N/A   ; None         ; 2.387 ns   ; SDATA_CDCL6010 ; SDATA_D ; CLK_12M  ;
+; N/A   ; None         ; 1.829 ns   ; SDATA_CDCE906  ; SDATA_D ; CLK_12M  ;
++-------+--------------+------------+----------------+---------+----------+
+
+
++--------------------------------------------------------------------------------------+
+; tco                                                                                  ;
++-------+--------------+------------+--------------------+----------------+------------+
+; Slack ; Required tco ; Actual tco ; From               ; To             ; From Clock ;
++-------+--------------+------------+--------------------+----------------+------------+
+; N/A   ; None         ; 8.690 ns   ; EN_DVDD_1V8~reg0   ; EN_DVDD_1V8    ; CLK_12M    ;
+; N/A   ; None         ; 8.194 ns   ; SDATA_CDCL6010~en  ; SDATA_CDCL6010 ; CLK_12M    ;
+; N/A   ; None         ; 8.192 ns   ; SCLK_CDCL6010~reg0 ; SCLK_CDCL6010  ; CLK_12M    ;
+; N/A   ; None         ; 7.913 ns   ; SCLK_CDCE906~reg0  ; SCLK_CDCE906   ; CLK_12M    ;
+; N/A   ; None         ; 7.909 ns   ; SDATA_CDCE906~en   ; SDATA_CDCE906  ; CLK_12M    ;
+; N/A   ; None         ; 7.024 ns   ; SCLK_CDCL6010~en   ; SCLK_CDCL6010  ; CLK_12M    ;
+; N/A   ; None         ; 6.834 ns   ; EN_CPU_CORE~reg0   ; EN_CPU_CORE    ; CLK_12M    ;
+; N/A   ; None         ; 6.834 ns   ; EN_DVDD_1V1~reg0   ; EN_DVDD_1V1    ; CLK_12M    ;
+; N/A   ; None         ; 6.770 ns   ; SCLK_CDCE906~en    ; SCLK_CDCE906   ; CLK_12M    ;
++-------+--------------+------------+--------------------+----------------+------------+
+
+
++-------------------------------------------------------------------------------+
+; th                                                                            ;
++---------------+-------------+-----------+----------------+---------+----------+
+; Minimum Slack ; Required th ; Actual th ; From           ; To      ; To Clock ;
++---------------+-------------+-----------+----------------+---------+----------+
+; N/A           ; None        ; -1.275 ns ; SDATA_CDCE906  ; SDATA_D ; CLK_12M  ;
+; N/A           ; None        ; -1.833 ns ; SDATA_CDCL6010 ; SDATA_D ; CLK_12M  ;
++---------------+-------------+-----------+----------------+---------+----------+
+
+
++--------------------------+
+; Timing Analyzer Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Classic Timing Analyzer
+    Info: Version 9.1 Build 222 10/21/2009 SJ Full Version
+    Info: Processing started: Mon Mar 26 18:45:45 2012
+Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off TIMENET -c TIMENET
+Info: Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info: Started post-fitting delay annotation
+Info: Delay annotation completed successfully
+Warning: Found pins functioning as undefined clocks and/or memory enables
+    Info: Assuming node "CLK_12M" is an undefined clock
+Info: Clock "CLK_12M" has Internal fmax of 46.73 MHz between source register "COUNTER[1]" and destination register "kickoff_num_CDCL6010[2]" (period= 21.399 ns)
+    Info: + Longest register to register delay is 20.690 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = LC_X3_Y4_N5; Fanout = 11; REG Node = 'COUNTER[1]'
+        Info: 2: + IC(1.916 ns) + CELL(0.914 ns) = 2.830 ns; Loc. = LC_X6_Y4_N3; Fanout = 1; COMB Node = 'LessThan0~2'
+        Info: 3: + IC(0.741 ns) + CELL(0.200 ns) = 3.771 ns; Loc. = LC_X6_Y4_N8; Fanout = 5; COMB Node = 'LessThan0~3'
+        Info: 4: + IC(0.749 ns) + CELL(0.200 ns) = 4.720 ns; Loc. = LC_X6_Y4_N5; Fanout = 23; COMB Node = 'LessThan0~4'
+        Info: 5: + IC(1.816 ns) + CELL(0.200 ns) = 6.736 ns; Loc. = LC_X6_Y4_N4; Fanout = 4; COMB Node = 'lpm_mult:Mult0|multcore:mult_core|romout[0][5]'
+        Info: 6: + IC(2.290 ns) + CELL(0.978 ns) = 10.004 ns; Loc. = LC_X7_Y3_N3; Fanout = 2; COMB Node = 'Add3~32'
+        Info: 7: + IC(0.000 ns) + CELL(0.261 ns) = 10.265 ns; Loc. = LC_X7_Y3_N4; Fanout = 5; COMB Node = 'Add3~27'
+        Info: 8: + IC(0.000 ns) + CELL(0.975 ns) = 11.240 ns; Loc. = LC_X7_Y3_N5; Fanout = 2; COMB Node = 'Add3~20'
+        Info: 9: + IC(2.468 ns) + CELL(0.747 ns) = 14.455 ns; Loc. = LC_X6_Y2_N1; Fanout = 1; COMB Node = 'LessThan4~22'
+        Info: 10: + IC(0.000 ns) + CELL(0.123 ns) = 14.578 ns; Loc. = LC_X6_Y2_N2; Fanout = 1; COMB Node = 'LessThan4~17'
+        Info: 11: + IC(0.000 ns) + CELL(0.123 ns) = 14.701 ns; Loc. = LC_X6_Y2_N3; Fanout = 1; COMB Node = 'LessThan4~12'
+        Info: 12: + IC(0.000 ns) + CELL(0.261 ns) = 14.962 ns; Loc. = LC_X6_Y2_N4; Fanout = 1; COMB Node = 'LessThan4~7'
+        Info: 13: + IC(0.000 ns) + CELL(0.975 ns) = 15.937 ns; Loc. = LC_X6_Y2_N5; Fanout = 4; COMB Node = 'LessThan4~0'
+        Info: 14: + IC(0.767 ns) + CELL(0.511 ns) = 17.215 ns; Loc. = LC_X6_Y2_N8; Fanout = 3; COMB Node = 'Add4~0'
+        Info: 15: + IC(1.239 ns) + CELL(0.511 ns) = 18.965 ns; Loc. = LC_X7_Y2_N7; Fanout = 1; COMB Node = 'kickoff_num_CDCL6010~4'
+        Info: 16: + IC(1.134 ns) + CELL(0.591 ns) = 20.690 ns; Loc. = LC_X6_Y2_N9; Fanout = 9; REG Node = 'kickoff_num_CDCL6010[2]'
+        Info: Total cell delay = 7.570 ns ( 36.59 % )
+        Info: Total interconnect delay = 13.120 ns ( 63.41 % )
+    Info: - Smallest clock skew is 0.000 ns
+        Info: + Shortest clock path from clock "CLK_12M" to destination register is 3.348 ns
+            Info: 1: + IC(0.000 ns) + CELL(1.163 ns) = 1.163 ns; Loc. = PIN_12; Fanout = 63; CLK Node = 'CLK_12M'
+            Info: 2: + IC(1.267 ns) + CELL(0.918 ns) = 3.348 ns; Loc. = LC_X6_Y2_N9; Fanout = 9; REG Node = 'kickoff_num_CDCL6010[2]'
+            Info: Total cell delay = 2.081 ns ( 62.16 % )
+            Info: Total interconnect delay = 1.267 ns ( 37.84 % )
+        Info: - Longest clock path from clock "CLK_12M" to source register is 3.348 ns
+            Info: 1: + IC(0.000 ns) + CELL(1.163 ns) = 1.163 ns; Loc. = PIN_12; Fanout = 63; CLK Node = 'CLK_12M'
+            Info: 2: + IC(1.267 ns) + CELL(0.918 ns) = 3.348 ns; Loc. = LC_X3_Y4_N5; Fanout = 11; REG Node = 'COUNTER[1]'
+            Info: Total cell delay = 2.081 ns ( 62.16 % )
+            Info: Total interconnect delay = 1.267 ns ( 37.84 % )
+    Info: + Micro clock to output delay of source is 0.376 ns
+    Info: + Micro setup delay of destination is 0.333 ns
+Info: tsu for register "SDATA_D" (data pin = "SDATA_CDCL6010", clock pin = "CLK_12M") is 2.387 ns
+    Info: + Longest pin to register delay is 5.402 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = PIN_90; Fanout = 1; PIN Node = 'SDATA_CDCL6010'
+        Info: 2: + IC(0.000 ns) + CELL(1.132 ns) = 1.132 ns; Loc. = IOC_X4_Y5_N1; Fanout = 1; COMB Node = 'SDATA_CDCL6010~0'
+        Info: 3: + IC(2.634 ns) + CELL(0.740 ns) = 4.506 ns; Loc. = LC_X2_Y2_N2; Fanout = 1; COMB Node = 'SDATA_D~0'
+        Info: 4: + IC(0.305 ns) + CELL(0.591 ns) = 5.402 ns; Loc. = LC_X2_Y2_N3; Fanout = 2; REG Node = 'SDATA_D'
+        Info: Total cell delay = 2.463 ns ( 45.59 % )
+        Info: Total interconnect delay = 2.939 ns ( 54.41 % )
+    Info: + Micro setup delay of destination is 0.333 ns
+    Info: - Shortest clock path from clock "CLK_12M" to destination register is 3.348 ns
+        Info: 1: + IC(0.000 ns) + CELL(1.163 ns) = 1.163 ns; Loc. = PIN_12; Fanout = 63; CLK Node = 'CLK_12M'
+        Info: 2: + IC(1.267 ns) + CELL(0.918 ns) = 3.348 ns; Loc. = LC_X2_Y2_N3; Fanout = 2; REG Node = 'SDATA_D'
+        Info: Total cell delay = 2.081 ns ( 62.16 % )
+        Info: Total interconnect delay = 1.267 ns ( 37.84 % )
+Info: tco from clock "CLK_12M" to destination pin "EN_DVDD_1V8" through register "EN_DVDD_1V8~reg0" is 8.690 ns
+    Info: + Longest clock path from clock "CLK_12M" to source register is 3.348 ns
+        Info: 1: + IC(0.000 ns) + CELL(1.163 ns) = 1.163 ns; Loc. = PIN_12; Fanout = 63; CLK Node = 'CLK_12M'
+        Info: 2: + IC(1.267 ns) + CELL(0.918 ns) = 3.348 ns; Loc. = LC_X4_Y4_N6; Fanout = 1; REG Node = 'EN_DVDD_1V8~reg0'
+        Info: Total cell delay = 2.081 ns ( 62.16 % )
+        Info: Total interconnect delay = 1.267 ns ( 37.84 % )
+    Info: + Micro clock to output delay of source is 0.376 ns
+    Info: + Longest register to pin delay is 4.966 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = LC_X4_Y4_N6; Fanout = 1; REG Node = 'EN_DVDD_1V8~reg0'
+        Info: 2: + IC(2.644 ns) + CELL(2.322 ns) = 4.966 ns; Loc. = PIN_49; Fanout = 0; PIN Node = 'EN_DVDD_1V8'
+        Info: Total cell delay = 2.322 ns ( 46.76 % )
+        Info: Total interconnect delay = 2.644 ns ( 53.24 % )
+Info: th for register "SDATA_D" (data pin = "SDATA_CDCE906", clock pin = "CLK_12M") is -1.275 ns
+    Info: + Longest clock path from clock "CLK_12M" to destination register is 3.348 ns
+        Info: 1: + IC(0.000 ns) + CELL(1.163 ns) = 1.163 ns; Loc. = PIN_12; Fanout = 63; CLK Node = 'CLK_12M'
+        Info: 2: + IC(1.267 ns) + CELL(0.918 ns) = 3.348 ns; Loc. = LC_X2_Y2_N3; Fanout = 2; REG Node = 'SDATA_D'
+        Info: Total cell delay = 2.081 ns ( 62.16 % )
+        Info: Total interconnect delay = 1.267 ns ( 37.84 % )
+    Info: + Micro hold delay of destination is 0.221 ns
+    Info: - Shortest pin to register delay is 4.844 ns
+        Info: 1: + IC(0.000 ns) + CELL(0.000 ns) = 0.000 ns; Loc. = PIN_33; Fanout = 1; PIN Node = 'SDATA_CDCE906'
+        Info: 2: + IC(0.000 ns) + CELL(1.132 ns) = 1.132 ns; Loc. = IOC_X3_Y0_N2; Fanout = 1; COMB Node = 'SDATA_CDCE906~0'
+        Info: 3: + IC(2.651 ns) + CELL(1.061 ns) = 4.844 ns; Loc. = LC_X2_Y2_N3; Fanout = 2; REG Node = 'SDATA_D'
+        Info: Total cell delay = 2.193 ns ( 45.27 % )
+        Info: Total interconnect delay = 2.651 ns ( 54.73 % )
+Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 130 megabytes
+    Info: Processing ended: Mon Mar 26 18:45:46 2012
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

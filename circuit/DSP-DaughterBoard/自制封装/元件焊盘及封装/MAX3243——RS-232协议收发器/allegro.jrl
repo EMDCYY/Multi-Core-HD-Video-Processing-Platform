@@ -1,0 +1,49 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/MAX3243——RS-232协议收发器/MAX3243_SSOP28.dra
+\i (00:00:02) trapsize 80
+\i (00:00:02) trapsize 77
+\i (00:00:02) trapsize 1210
+\i (00:00:02) trapsize 76200
+\i (00:00:02) trapsize 78
+\i (00:00:04) trapsize 80
+\i (00:00:04) generaledit 
+\i (00:00:06) save 
+\f (00:00:06) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/MAX3243——RS-232协议收发器/MAX3243_SSOP28.dra: File Exists. Overwrite? 
+\i (00:00:07) fillin yes 
+\t (00:00:07) Symbol 'max3243_ssop28.psm' created.
+\i (00:00:07) generaledit 
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 1.214 -0.777
+\i (00:00:09) trapsize 40
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in 1.214 -0.777
+\i (00:00:09) trapsize 20
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 1.215 -0.777
+\i (00:00:10) trapsize 40
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out 1.214 -0.777
+\i (00:00:10) trapsize 80
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 1.214 -0.777
+\i (00:00:11) trapsize 107
+\i (00:00:25) setwindow form.vf_vis
+\i (00:00:25) FORM vf_vis all_all_visible NO 
+\i (00:00:27) FORM vf_vis all_all_visible_pln NO 
+\i (00:00:28) FORM vf_vis plane_checkbox NO 
+\i (00:00:31) FORM vf_vis all_pin_visible YES 
+\i (00:00:33) FORM vf_vis all_pin_visible NO 
+\i (00:00:34) FORM vf_vis all_pin_visible YES 
+\i (00:00:35) FORM vf_vis all_pin_visible NO 
+\i (00:00:36) FORM vf_vis all_pin_visible YES 
+\i (00:00:36) FORM vf_vis all_pin_visible NO 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) exit 

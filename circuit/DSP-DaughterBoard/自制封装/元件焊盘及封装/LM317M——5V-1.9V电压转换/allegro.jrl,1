@@ -1,0 +1,13 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/LM317M——5V-1.9V电压转换/LM317M_SOT223.dra
+\i (00:00:02) trapsize 72
+\i (00:00:02) trapsize 69
+\i (00:00:02) trapsize 680
+\i (00:00:02) trapsize 42840
+\i (00:00:02) trapsize 44
+\i (00:00:04) trapsize 72
+\i (00:00:04) generaledit 
+\i (00:00:17) exit 

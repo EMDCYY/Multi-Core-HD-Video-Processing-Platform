@@ -1,0 +1,18 @@
+\t (00:00:00) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:00) 
+
+\t (00:00:00) Opening existing drawing...
+\d (00:00:00) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/GS2974——HD-SDI输入缓冲器/GS2974B_QFN16.dra
+\i (00:00:01) trapsize 38
+\i (00:00:01) trapsize 37
+\i (00:00:01) trapsize 588
+\i (00:00:01) trapsize 37020
+\i (00:00:01) trapsize 38
+\i (00:00:03) trapsize 38
+\i (00:00:03) generaledit 
+\i (00:00:04) save 
+\f (00:00:04) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/GS2974——HD-SDI输入缓冲器/GS2974B_QFN16.dra: File Exists. Overwrite? 
+\i (00:00:05) fillin yes 
+\t (00:00:05) Symbol 'gs2974b_qfn16.psm' created.
+\i (00:00:05) generaledit 
+\i (00:00:07) exit 

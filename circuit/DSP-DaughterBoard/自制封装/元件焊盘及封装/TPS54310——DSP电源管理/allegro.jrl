@@ -1,0 +1,59 @@
+\t (00:00:00) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:00) 
+
+\t (00:00:00) Opening existing drawing...
+\d (00:00:00) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/TPS54310——DSP电源管理/TPS54310_TSOP20.dra
+\i (00:00:01) trapsize 70
+\i (00:00:01) trapsize 68
+\i (00:00:01) trapsize 1091
+\i (00:00:01) trapsize 68730
+\i (00:00:01) trapsize 70
+\i (00:00:01) trapsize 70
+\i (00:00:01) generaledit 
+\i (00:00:03) save 
+\f (00:00:03) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/TPS54310——DSP电源管理/TPS54310_TSOP20.dra: File Exists. Overwrite? 
+\i (00:00:04) fillin yes 
+\t (00:00:04) Symbol 'tps54310_tsop20.psm' created.
+\i (00:00:04) generaledit 
+\i (00:00:09) zoom out 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom out 3.269 -2.502
+\i (00:00:09) trapsize 107
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 11.012 -1.389
+\i (00:00:10) trapsize 53
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 5.505 -1.367
+\i (00:00:11) trapsize 107
+\i (00:00:13) color192 
+\i (00:00:14) generaledit 
+\i (00:00:18) setwindow cvf.dialog
+\i (00:00:18) cvf global_invisible
+\i (00:00:22) cvf layer_tree_item 37
+\i (00:00:23) cvf layer_grid_vis 2 153 1
+\i (00:00:24) cvf apply
+\i (00:00:27) cvf layer_tree_item 54
+\i (00:00:29) cvf layer_grid_vis 3 221 1
+\i (00:00:30) cvf apply
+\i (00:00:34) cvf layer_grid_vis 7 221 1
+\i (00:00:35) cvf apply
+\i (00:00:38) cvf layer_grid_vis 9 221 1
+\i (00:00:39) cvf apply
+\i (00:00:45) cvf layer_grid_vis 5 221 1
+\i (00:00:46) cvf apply
+\i (00:00:50) cvf layer_tree_item 55
+\i (00:00:53) cvf layer_grid_vis 3 237 1
+\i (00:00:54) cvf apply
+\i (00:00:57) cvf layer_grid_vis 5 237 1
+\i (00:00:59) cvf apply
+\i (00:01:02) cvf global_visible
+\i (00:01:03) cvf okay
+\i (00:01:04) setwindow pcb
+\i (00:01:04) save 
+\f (00:01:04) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/TPS54310——DSP电源管理/TPS54310_TSOP20.dra: File Exists. Overwrite? 
+\i (00:01:05) fillin yes 
+\t (00:01:05) Symbol 'tps54310_tsop20.psm' created.
+\i (00:01:05) generaledit 
+\i (00:01:06) exit 

@@ -1,0 +1,83 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/LM317M——5V-1.9V电压转换/LM317M_SOT223.dra
+\i (00:00:02) trapsize 72
+\i (00:00:02) trapsize 69
+\i (00:00:02) trapsize 680
+\i (00:00:02) trapsize 42840
+\i (00:00:02) trapsize 44
+\i (00:00:04) trapsize 72
+\i (00:00:04) generaledit 
+\i (00:00:21) setwindow form.mini
+\i (00:00:21) FORM mini class PACKAGE GEOMETRY 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) add line 
+\i (00:00:35) setwindow form.mini
+\i (00:00:35) FORM mini line_width 0.800 
+\i (00:00:35) FORM mini lock_direction Off 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom in -3.802 -1.443
+\i (00:00:41) trapsize 36
+\i (00:00:46) pick grid -2.628 -0.970
+\t (00:00:46) last pick:  -2.600  -1.000
+\i (00:00:49) pick grid -2.356 -1.006
+\t (00:00:49) last pick:  -2.400  -1.000
+\i (00:00:53) done 
+\i (00:00:53) generaledit 
+\i (00:00:55) pick grid -2.113 -1.034
+\t (00:00:55) last pick:  -2.100  -1.000
+\i (00:00:56) pick grid -2.113 -1.034
+\t (00:00:56) last pick:  -2.100  -1.000
+\i (00:00:57) pick grid -2.041 -1.027
+\t (00:00:57) last pick:  -2.000  -1.000
+\i (00:00:59) zoom out 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom out -1.776 -0.977
+\i (00:00:59) trapsize 72
+\i (00:01:07) add line 
+\i (00:01:12) setwindow form.mini
+\i (00:01:12) FORM mini subclass SILKSCREEN_TOP 
+\i (00:01:34) FORM mini line_width 0.600 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) pick grid -3.315 -2.753
+\t (00:01:38) last pick:  -3.300  -2.800
+\i (00:01:41) pick grid -3.286 -2.925
+\t (00:01:41) last pick:  -3.300  -2.900
+\i (00:01:44) done 
+\i (00:01:44) generaledit 
+\i (00:01:57) add line 
+\i (00:02:03) pick grid -2.799 -0.876
+\t (00:02:03) last pick:  -2.800  -0.900
+\i (00:02:06) pick grid -2.670 -0.919
+\t (00:02:06) last pick:  -2.700  -0.900
+\i (00:02:08) done 
+\i (00:02:08) generaledit 
+\i (00:02:10) save 
+\f (00:02:10) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/LM317M——5V-1.9V电压转换/LM317M_SOT223.dra: File Exists. Overwrite? 
+\i (00:02:11) fillin yes 
+\t (00:02:12) Symbol 'lm317m_sot223.psm' created.
+\i (00:02:12) generaledit 
+\t (00:02:14) last pick:  6.797  3.420
+\w (00:02:14) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:02:15) zoom out 1 
+\i (00:02:15) setwindow pcb
+\i (00:02:15) zoom out 6.697 3.320
+\i (00:02:15) trapsize 86
+\i (00:02:15) zoom out 1 
+\i (00:02:15) setwindow pcb
+\i (00:02:15) zoom out 8.834 4.199
+\i (00:02:15) trapsize 86
+\i (00:02:15) zoom out 1 
+\i (00:02:15) setwindow pcb
+\i (00:02:15) zoom out 8.766 4.079
+\i (00:02:15) trapsize 86
+\i (00:02:16) save 
+\f (00:02:16) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/LM317M——5V-1.9V电压转换/LM317M_SOT223.dra: File Exists. Overwrite? 
+\i (00:02:17) fillin yes 
+\t (00:02:17) Symbol 'lm317m_sot223.psm' created.
+\i (00:02:17) generaledit 
+\i (00:02:18) exit 

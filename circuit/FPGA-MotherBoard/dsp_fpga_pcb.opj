@@ -1,0 +1,250 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\dsp_fpga_pcb.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (RootChangedForceReNetlist "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "4")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{package}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\Documents and Settings\Administrator\Desktop\11.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "E:\桌面文件\DSP图像处理资料\DSP_PCB图\DSP_FPGA_PCB图\CADENCE图\DSP_FPGA_PCB.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "TRUE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File "G:\Cadence\DSP_FPGA_PCB.DRC")
+    (CrossRef_Scope "0")
+    (Crossref__Mode "0")
+    (CrossRef_Sorting "0")
+    (CrossRef_Destination_File
+       "E:\桌面文件\DSP图像处理资料\DSP_PCB图\DSP_FPGA_PCB图\CADENCE图\DSP_FPGA_PCB.XRF")
+    (CrossRef_XY "FALSE")
+    (CrossRef_Unused "FALSE")
+    (XRF_View_Output "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\dsp_fpga_pcb.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Configuration File"
+       "F:\Program_Files\Cadence_16_0\tools\capture\allegro.cfg")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (OTHER_Part_Value "{PCB Footprint}")
+    (OTHER_Netlist_File "DSP_FPGA_PCB.NET")
+    (OTHER_Netlist_File2 "DSP_FPGA_PCB.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "telesis.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE")
+    ("Allegro Netlist Input Board File" "G:\Cadence\allegro\dsp_fpga_pcb.brd")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs"
+    (File ".\dsp_fpga_pcb.bom"
+      (Type "Report"))
+    (File ".\dsp_fpga_pcb.drc"
+      (Type "Report"))
+    (File ".\dsp_fpga_pcb.xrf"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File
+       "e:\桌面文件\dsp图像处理资料\dsp_pcb图\dsp_fpga_pcb图\cadence图\dsp_fpga_pcb.drc"
+      (Type "Report"))
+    (File ".\dsp_fpga_pcb.net"
+      (Type "Report"))
+    (File "..\11.bom"
+      (Type "Report"))
+    (File "g:\cadence\dsp_fpga_pcb.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (FB
+      (FullPartName "FB.Normal")
+      (LibraryName "G:\CADENCE\原理图库.OLB")
+      (DeviceIndex "0"))
+    ("CONNECTOR DB15"
+      (FullPartName "CONNECTOR DB15.Normal")
+      (LibraryName
+         "F:\PROGRAM_FILES\CADENCE_16_0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (XC6VLX130T
+      (FullPartName "XC6VLX130T-2.Normal")
+      (LibraryName "G:\CADENCE\原理图库.OLB")
+      (DeviceIndex "1"))
+    (CIRDIN_4-R
+      (FullPartName "CIRDIN_4-R.Normal")
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (S端子_Y/C输出
+      (FullPartName "S端子_Y/C输出.Normal")
+      (LibraryName
+         "E:\桌面文件\DSP图像处理资料\DSP_PCB图\DSP_FPGA_PCB图\CADENCE图\原理图库\原理图库.OLB")
+      (DeviceIndex "0"))
+    ("SW DIP-4/SM"
+      (FullPartName "SW DIP-4/SM.Normal")
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW DIP-4"
+      (FullPartName "SW DIP-4.Normal")
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (THS8200_高清编码
+      (FullPartName "THS8200_高清编码.Normal")
+      (LibraryName
+         "E:\桌面文件\DSP图像处理资料\DSP_PCB图\DSP_FPGA_PCB图\CADENCE图\原理图库\原理图库.OLB")
+      (DeviceIndex "0"))
+    ("TEST POINT"
+      (FullPartName "TEST POINT.Normal")
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("T POINT A"
+      (FullPartName "T POINT A.Normal")
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL
+      (FullPartName "CRYSTAL.Normal")
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (PTH08T240F_电压转换
+      (FullPartName "PTH08T240F_电压转换.Normal")
+      (LibraryName
+         "E:\桌面文件\DSP图像处理资料\DSP_PCB图\DSP_FPGA_PCB图\CADENCE图\原理图库\原理图库.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("12 HEADER"
+      (FullPartName "12 HEADER.Normal")
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "D:\AA_RAKESH_P\DESIGN\PCB\ORCAD\LIBRARY\GENNUM1_0.OLB")
+      (DeviceIndex "0"))
+    (TPS54310PWP_电源管理
+      (FullPartName "TPS54310PWP_电源管理.Normal")
+      (LibraryName
+         "E:\桌面文件\DSP图像处理资料\DSP_PCB图\DSP_FPGA_PCB图\CADENCE图\原理图库\原理图库.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGE-BIDIR
+      (LibraryName "C:\DATA\ORCAD_LIBRARIES\C6XPARTS.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "F:\CADENCE_16.0\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GS2972_HD-SDI编码器
+      (FullPartName "GS2972_HD-SDI编码器.Normal")
+      (LibraryName
+         "E:\桌面文件\DSP图像处理资料\DSP_PCB图\DSP_FPGA_PCB图\CADENCE图\原理图库\原理图库.OLB")
+      (DeviceIndex "0"))
+    (GS2970_HD-SDI解码器
+      (FullPartName "GS2970_HD-SDI解码器.Normal")
+      (LibraryName
+         "E:\桌面文件\DSP图像处理资料\DSP_PCB图\DSP_FPGA_PCB图\CADENCE图\原理图库\原理图库.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "E:\FPGA\FPGA原理图\dsp_fpga_pcb.dsn")
+      (Path "Design Resources" "E:\FPGA\FPGA原理图\dsp_fpga_pcb.dsn"
+         "Schematic")
+      (Select "Design Resources" "E:\FPGA\FPGA原理图\dsp_fpga_pcb.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 1 1 -1 -1 -4 -30 257 649 -26 632"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 22 874 29 342")
+        (Scroll "0 702")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\FPGA\FPGA原理图\DSP_FPGA_PCB.DSN")
+      (Schematic "Schematic")
+      (Page "SH07 FPGA_Config"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 44 914 58 290")
+        (Scroll "298 1536")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\FPGA\FPGA原理图\DSP_FPGA_PCB.DSN")
+      (Schematic "Schematic")
+      (Page "SH03 YPbPr高清视频采集模块")))
+  (MPSSessionName "Owner")
+  (LastUsedLibraryBrowseDirectory
+     "F:\Program_Files\Cadence_16_0\tools\capture\library"))

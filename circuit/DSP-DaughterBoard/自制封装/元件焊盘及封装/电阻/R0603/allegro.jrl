@@ -1,0 +1,68 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.064/MYSYM/R0603.dra
+\i (00:00:02) trapsize 19
+\i (00:00:02) trapsize 119
+\i (00:00:02) trapsize 18755
+\i (00:00:02) trapsize 19
+\i (00:00:04) trapsize 19
+\i (00:00:04) generaledit 
+\i (00:00:12) prmed 
+\i (00:00:14) setwindow form.prmedit
+\i (00:00:14) FORM prmedit design  
+\i (00:00:16) FORM prmedit units Mils 
+\e (00:00:16) Change may cause round-off; run dbcheck.
+\i (00:00:17) FORM prmedit done  
+\w (00:00:17) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:17) setwindow pcb
+\i (00:00:17) trapsize 89
+\t (00:00:17) Performing DRC...
+\t (00:00:17) No DRC errors detected.
+\i (00:00:17) generaledit 
+\i (00:00:23) zoom in 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom in 1.60 1.24
+\i (00:00:23) trapsize 45
+\i (00:00:23) zoom out 1 
+\i (00:00:23) setwindow pcb
+\i (00:00:23) zoom out 1.60 1.24
+\i (00:00:23) trapsize 89
+\i (00:00:25) add pin 
+\i (00:00:26) setwindow form.mini
+\i (00:00:26) FORM mini pad_browse  
+\f (00:00:26) Select a padstack:
+\i (00:00:32) fillin "R0603_Pad"
+\t (00:00:32) Using 'R0603_PAD.pad'.
+\i (00:00:36) FORM mini offsetx 0.00 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) pick -35.43 0 
+\t (00:01:14) last pick:  -35.43  0.00
+\t (00:01:14) Using 'R0603_PAD.pad'.
+\i (00:01:34) cancel 
+\t (00:01:34) Exiting from Add Pin.
+\i (00:01:34) generaledit 
+\i (00:01:36) add pin 
+\i (00:01:38) setwindow form.mini
+\i (00:01:38) FORM mini pad_browse  
+\f (00:01:38) Select a padstack:
+\i (00:01:42) fillin "R0603_Pad"
+\t (00:01:42) Using 'R0603_PAD.pad'.
+\i (00:01:46) FORM mini offsetx 0.00 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) pick -31.5 0 
+\t (00:02:07) last pick:  -31.50  0.00
+\t (00:02:07) Using 'R0603_PAD.pad'.
+\i (00:02:13) pick 31.5 0 
+\t (00:02:13) last pick:  31.50  0.00
+\t (00:02:13) Using 'R0603_PAD.pad'.
+\i (00:02:14) done 
+\t (00:02:14) Exiting from Add Pin.
+\i (00:02:14) generaledit 
+\i (00:02:16) save 
+\f (00:02:16) C:/FPM0.064/MYSYM/R0603.dra: File Exists. Overwrite? 
+\i (00:02:17) fillin yes 
+\t (00:02:17) Symbol 'r0603.psm' created.
+\i (00:02:17) generaledit 
+\i (00:02:21) exit 

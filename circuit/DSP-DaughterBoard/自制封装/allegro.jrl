@@ -1,0 +1,29 @@
+\t (00:00:01) allegro 16.2 p005 (v16-2-57E) i86
+\t (00:00:01) 
+
+   (00:00:02) *WARNING* (reader): string terminated by illegal char \312 at line 1 of string "(setSkillPath ". E:/DSP+Ê"
+   (00:00:02) *WARNING* (reader): illegal character '\37777777700' ignored at line 1 of string "...th ". E:/DSP+Êý×ÖÍ¼Ïñ´¦Àí"
+   (00:00:02) 
+   (00:00:02) (setSkillPath ". E:/DSP+Êý×ÖÍ¼Ïñ´¦Àí/LIUsDesigns/pcbenv D:/Cadence/SPB_16.2/share/local/pcb/skill D:/Cadence/SPB_16.2/share/pcb/etc")
+   (00:00:02)                                                            ^
+   (00:00:02) SYNTAX ERROR found at line 1 column 60 of file *string*
+   (00:00:02) *Error* lineread/read: syntax error encountered in input
+\t (00:00:02) Starting new drawing...
+\i (00:00:03) trapsize 1456
+\i (00:00:03) trapsize 1394
+\i (00:00:04) trapsize 1101
+\i (00:00:06) trapsize 1710
+\i (00:00:07) generaledit 
+\i (00:00:10) open 
+\i (00:00:17) fillin "C:\Documents and Settings\LIUXINPC\×ÀÃæ\QMS-026-XX_XX-XX-D-A.dra"
+\i (00:00:17) cd "C:\Documents and Settings\LIUXINPC\×ÀÃæ"
+\t (00:00:17) Opening existing drawing...
+\f (00:00:17) This database has been created using an earlier release of software and will be updated for compatibility with the current version.  Once saved, the database will only be accessible using the current or later versions of the software.  OK to proceed?
+\i (00:00:24) fillin yes 
+\t (00:00:24) Grids are drawn 160.00, 160.00 apart for enhanced viewability.
+\i (00:00:24) trapsize 599
+\i (00:00:25) trapsize 618
+\i (00:00:25) trapsize 830
+\d (00:00:26) Database opened: C:/Documents and Settings/LIUXINPC/×ÀÃæ/QMS-026-XX_XX-XX-D-A.dra
+\i (00:00:26) generaledit 
+\i (00:00:50) exit 

@@ -1,0 +1,18 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/GS2970——HD-SDI解码器/GS2970_BGA100.dra
+\i (00:00:02) trapsize 91
+\i (00:00:02) trapsize 88
+\i (00:00:02) trapsize 568
+\i (00:00:02) trapsize 89130
+\i (00:00:02) trapsize 91
+\i (00:00:04) trapsize 91
+\i (00:00:04) generaledit 
+\i (00:00:13) save 
+\f (00:00:13) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/GS2970——HD-SDI解码器/GS2970_BGA100.dra: File Exists. Overwrite? 
+\i (00:00:13) fillin yes 
+\t (00:00:14) Symbol 'gs2970_bga100.psm' created.
+\i (00:00:14) generaledit 
+\i (00:00:19) exit 

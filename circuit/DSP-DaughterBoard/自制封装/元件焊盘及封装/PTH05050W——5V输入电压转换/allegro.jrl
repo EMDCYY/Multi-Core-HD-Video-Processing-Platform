@@ -1,0 +1,35 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.080/MYSYM/PTH05050W_EUU6.dra
+\i (00:00:02) trapsize 183
+\i (00:00:02) trapsize 178
+\t (00:00:02) Grids are drawn 2.540, 2.540 apart for enhanced viewability.
+\i (00:00:02) trapsize 2845
+\t (00:00:02) Grids are drawn 162.560, 162.560 apart for enhanced viewability.
+\i (00:00:02) trapsize 179250
+\i (00:00:02) trapsize 183
+\i (00:00:04) trapsize 183
+\i (00:00:05) generaledit 
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in 14.180 7.710
+\i (00:00:06) trapsize 92
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 14.180 7.710
+\i (00:00:06) trapsize 183
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 16.524 9.870
+\i (00:00:11) trapsize 92
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 16.524 9.870
+\i (00:00:12) trapsize 183
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 16.524 9.870
+\i (00:00:12) trapsize 366
+\i (00:00:13) exit 

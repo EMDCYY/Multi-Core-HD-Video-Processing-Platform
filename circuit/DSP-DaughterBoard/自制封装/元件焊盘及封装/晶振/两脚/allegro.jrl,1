@@ -1,0 +1,282 @@
+\t (00:00:03) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:03) 
+
+\t (00:00:03) Opening existing drawing...
+\d (00:00:03) Database opened: C:/Documents and Settings/Administrator/桌面/XTAL.dra
+\i (00:00:03) trapsize 90
+\i (00:00:03) trapsize 86
+\i (00:00:03) trapsize 455
+\t (00:00:04) Grids are drawn 6400.0, 6400.0 apart for enhanced viewability.
+\i (00:00:04) trapsize 71500
+\i (00:00:04) trapsize 73
+\i (00:00:06) trapsize 91
+\i (00:00:06) generaledit 
+\i (00:00:12) color192 
+\i (00:00:12) generaledit 
+\i (00:00:15) setwindow cvf.dialog
+\i (00:00:15) cvf global_invisible
+\i (00:00:16) cvf apply
+\i (00:00:17) cvf layer_tree_item 44
+\i (00:00:22) cvf layer_tree_item 37
+\i (00:00:27) cvf layer_grid_vis 2 153 1
+\i (00:00:28) cvf apply
+\i (00:00:31) cvf layer_tree_item 54
+\i (00:00:32) cvf layer_grid_vis 3 221 1
+\i (00:00:33) cvf apply
+\i (00:00:37) cvf layer_grid_vis 4 221 1
+\i (00:00:38) cvf apply
+\i (00:00:45) cvf layer_grid_vis 9 221 1
+\i (00:00:46) cvf apply
+\i (00:00:55) cvf layer_grid_vis 7 221 1
+\i (00:00:56) cvf apply
+\i (00:01:00) cvf layer_grid_vis 5 221 1
+\i (00:01:01) cvf apply
+\i (00:01:18) cvf layer_tree_item 58
+\i (00:01:20) cvf layer_grid_vis 3 237 1
+\i (00:01:21) cvf apply
+\i (00:01:24) cvf layer_grid_vis 5 237 1
+\i (00:01:25) cvf apply
+\i (00:02:00) cvf cancel
+\i (00:02:01) setwindow pcb
+\i (00:02:01) pick grid -53.4 224.3
+\t (00:02:01) last pick:  -100.0  200.0
+\i (00:02:03) drag_start grid -84.3 244.3
+\i (00:02:03) move 
+\t (00:02:03) Pick new location for the element(s).
+\i (00:02:06) drag_stop grid -100.6 133.4
+\i (00:02:06) generaledit 
+\i (00:02:13) redraw 
+\i (00:02:16) save 
+\f (00:02:16) C:/Documents and Settings/Administrator/桌面/XTAL.dra: File Exists. Overwrite? 
+\i (00:02:16) fillin yes 
+\t (00:02:17) Symbol 'xtal.psm' created.
+\i (00:02:17) generaledit 
+\i (00:02:23) label refdes 
+\t (00:02:23) Pick text location.
+\i (00:02:27) setwindow form.mini
+\i (00:02:27) FORM mini subclass ASSEMBLY_TOP 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) pick grid 66.6 6.2
+\t (00:02:32) last pick:  100.0  0.0
+\t (00:02:32) Enter text string.
+\i (00:02:39) setwindow pcb
+\i (00:02:39) done 
+\i (00:02:39) setwindow pcb
+\i (00:02:39) pick 100.0 0.0
+\i (00:02:39) setwindow pcb
+\i (00:02:39) generaledit 
+\i (00:02:42) drag_start grid 135.6 58.9
+\i (00:02:42) move 
+\t (00:02:42) Pick new location for the element(s).
+\i (00:02:56) drag_stop grid 41.1 69.8
+\i (00:02:56) generaledit 
+\i (00:02:58) pick grid 728.1 525.9
+\t (00:02:58) last pick:  700.0  500.0
+\i (00:02:59) redraw 
+\i (00:03:19) zoom in 1 
+\i (00:03:19) setwindow pcb
+\i (00:03:19) zoom in -415.0 175.2
+\i (00:03:19) trapsize 45
+\i (00:03:21) zoom in 1 
+\i (00:03:21) setwindow pcb
+\i (00:03:21) zoom in 112.9 0.8
+\i (00:03:21) trapsize 23
+\i (00:03:59) pick grid 81.5 138.5
+\t (00:03:59) last pick:  100.0  100.0
+\i (00:04:00) zoom out 1 
+\i (00:04:00) setwindow pcb
+\i (00:04:00) zoom out 80.6 137.6
+\i (00:04:00) trapsize 45
+\i (00:04:09) pick grid 99.6 30.4
+\t (00:04:09) last pick:  100.0  0.0
+\i (00:04:11) move 
+\t (00:04:11) Pick new location for the element(s).
+\i (00:04:22) pick 0.5 0 
+\t (00:04:22) last pick:  0.5  0.0
+\i (00:04:22) generaledit 
+\i (00:04:42) prmed 
+\i (00:04:44) setwindow form.prmedit
+\i (00:04:44) FORM prmedit design  
+\i (00:04:50) FORM prmedit units Millimeter 
+\e (00:04:50) Change may cause round-off; run dbcheck.
+\i (00:04:53) FORM prmedit done  
+\w (00:04:53) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:04:53) setwindow pcb
+\i (00:04:53) trapsize 2308
+\t (00:04:53) Performing DRC...
+\t (00:04:53) No DRC errors detected.
+\i (00:04:53) generaledit 
+\i (00:05:25) pick grid -1.7251 0.6187
+\t (00:05:25) last pick:  -2.5400  0.0000
+\i (00:05:27) move 
+\t (00:05:27) Pick new location for the element(s).
+\i (00:05:44) pick 0.5 0 
+\t (00:05:44) last pick:  0.5000  0.0000
+\i (00:05:44) generaledit 
+\i (00:05:47) done 
+\i (00:05:47) generaledit 
+\i (00:05:49) save 
+\f (00:05:49) C:/Documents and Settings/Administrator/桌面/XTAL.dra: File Exists. Overwrite? 
+\i (00:05:49) fillin yes 
+\t (00:05:50) Symbol 'xtal.psm' created.
+\i (00:05:50) generaledit 
+\i (00:05:51) zoom in 1 
+\i (00:05:51) setwindow pcb
+\i (00:05:51) zoom in -2.4636 3.0189
+\i (00:05:51) trapsize 1154
+\i (00:05:51) zoom in 1 
+\i (00:05:51) setwindow pcb
+\i (00:05:51) zoom in -2.4636 3.0189
+\i (00:05:51) trapsize 577
+\i (00:05:52) zoom out 1 
+\i (00:05:52) setwindow pcb
+\i (00:05:52) zoom out -2.4636 3.0189
+\i (00:05:52) trapsize 1154
+\i (00:05:55) add rect 
+\i (00:06:00) zoom in 1 
+\i (00:06:00) setwindow pcb
+\i (00:06:00) zoom in -0.2942 1.6573
+\i (00:06:00) trapsize 577
+\i (00:06:09) pick grid -1.5059 1.6688
+\t (00:06:09) last pick:  -2.5400  2.5400
+\i (00:06:14) cancel 
+\i (00:06:14) generaledit 
+\i (00:06:39) pick grid 5.3831 4.5421
+\t (00:06:39) last pick:  5.0800  5.0800
+\i (00:06:40) zoom out 1 
+\i (00:06:40) setwindow pcb
+\i (00:06:40) zoom out 5.3831 4.5421
+\i (00:06:40) trapsize 1154
+\i (00:06:41) zoom in 1 
+\i (00:06:41) setwindow pcb
+\i (00:06:41) zoom in 7.5988 -1.8506
+\i (00:06:41) trapsize 577
+\i (00:06:44) add line 
+\i (00:06:57) pick grid -2.4981 2.2574
+\t (00:06:57) last pick:  -2.5400  2.5400
+\i (00:07:01) pick grid 7.6796 1.2997
+\t (00:07:01) last pick:  7.6200  2.5400
+\i (00:07:13) cancel 
+\i (00:07:13) generaledit 
+\i (00:07:14) save 
+\f (00:07:14) C:/Documents and Settings/Administrator/桌面/XTAL.dra: File Exists. Overwrite? 
+\i (00:07:15) fillin yes 
+\t (00:07:16) Symbol 'xtal.psm' created.
+\i (00:07:16) generaledit 
+\i (00:07:31) prepopup -1.1365 -3.0507
+\i (00:07:34) pop dyn_option_select 'Quick Utilities@:@Grids...' 
+\i (00:07:34) define grid 
+\i (00:07:34) generaledit 
+\i (00:07:44) setwindow form.grid
+\i (00:07:44) FORM grid non_etch non_etch_x_grids 0.0254 
+\i (00:07:45) FORM grid non_etch non_etch_y_grids 0.0254 
+\i (00:07:46) FORM grid all_etch all_etch_x_grids 0.0254 
+\i (00:07:47) FORM grid all_etch all_etch_y_grids 0.0254 
+\i (00:07:48) FORM grid all_etch all_etch_x_offset 0.0000 
+\i (00:07:50) FORM grid all_etch all_etch_y_offset 0.0000 
+\i (00:07:50) FORM grid done  
+\t (00:07:50) Grids are drawn 0.1016, 0.1016 apart for enhanced viewability.
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom in 1 
+\i (00:07:58) setwindow pcb
+\i (00:07:58) zoom in -1.4596 0.1804
+\i (00:07:58) trapsize 288
+\i (00:07:59) zoom out 1 
+\i (00:07:59) setwindow pcb
+\i (00:07:59) zoom out -1.4595 0.1804
+\i (00:07:59) trapsize 577
+\i (00:08:03) add line 
+\i (00:08:06) setwindow form.mini
+\i (00:08:06) FORM mini lock_direction 90 
+\i (00:08:10) setwindow pcb
+\i (00:08:10) pick grid -1.4250 1.4266
+\t (00:08:10) last pick:  -1.4224  1.4224
+\i (00:08:13) pick grid -1.4250 1.4266
+\t (00:08:13) last pick:  -1.4224  1.4224
+\t (00:08:13) last pick:  -1.4224  1.4224
+\w (00:08:13) WARNING(SPMHA1-339): Pick equals previous pick ... try again.
+\i (00:08:18) pick grid 6.5141 -1.4121
+\t (00:08:18) last pick:  6.5024  -1.4224
+\i (00:08:22) pick grid -1.4480 -1.4121
+\t (00:08:22) last pick:  -1.4478  -1.4224
+\i (00:08:23) zoom in 1 
+\i (00:08:23) setwindow pcb
+\i (00:08:23) zoom in -1.3903 1.3112
+\i (00:08:23) trapsize 288
+\i (00:08:24) zoom in 1 
+\i (00:08:24) setwindow pcb
+\i (00:08:24) zoom in -1.3903 1.3112
+\i (00:08:24) trapsize 144
+\i (00:08:29) zoom out 1 
+\i (00:08:29) setwindow pcb
+\i (00:08:29) zoom out -1.4451 1.3948
+\i (00:08:29) trapsize 288
+\i (00:08:35) cancel 
+\i (00:08:35) generaledit 
+\i (00:08:38) add line 
+\i (00:08:44) pick grid -1.4335 1.4352
+\t (00:08:44) last pick:  -1.4224  1.4478
+\i (00:08:49) cancel 
+\i (00:08:49) generaledit 
+\i (00:08:51) zoom out 1 
+\i (00:08:51) setwindow pcb
+\i (00:08:51) zoom out 0.5166 -1.2995
+\i (00:08:51) trapsize 577
+\i (00:08:53) zoom out 1 
+\i (00:08:53) setwindow pcb
+\i (00:08:53) zoom out 3.1245 -1.4611
+\i (00:08:53) trapsize 1154
+\i (00:08:55) zoom in 1 
+\i (00:08:55) setwindow pcb
+\i (00:08:55) zoom in 8.6633 -3.1919
+\i (00:08:55) trapsize 577
+\i (00:09:00) add line 
+\i (00:09:06) pick grid -1.4566 1.4468
+\t (00:09:06) last pick:  -1.4478  1.4478
+\i (00:09:12) pick grid 6.4939 -1.4033
+\t (00:09:12) last pick:  6.5024  -1.3970
+\i (00:09:18) pick grid -1.4681 -1.4149
+\t (00:09:18) last pick:  -1.4732  -1.4224
+\i (00:09:21) pick grid -1.4451 1.4699
+\t (00:09:21) last pick:  -1.4478  1.4732
+\t (00:09:21) last pick:  -1.4478  1.4478
+\i (00:09:23) pick grid -1.4451 1.4584
+\t (00:09:23) last pick:  -1.4478  1.4478
+\t (00:09:23) last pick:  -1.4478  1.4478
+\w (00:09:23) WARNING(SPMHA1-339): Pick equals previous pick ... try again.
+\e (00:09:23) ERROR(SPMHA1-415): Line segments cannot overlap.
+\t (00:09:23) last pick:  -1.4732  -1.4224
+\i (00:09:24) pick grid -1.2027 1.4468
+\t (00:09:24) last pick:  -1.1938  1.4478
+\i (00:09:26) done 
+\i (00:09:26) generaledit 
+\i (00:09:28) zoom in 1 
+\i (00:09:28) setwindow pcb
+\i (00:09:28) zoom in -1.4220 1.7469
+\i (00:09:28) trapsize 288
+\i (00:09:29) zoom out 1 
+\i (00:09:29) setwindow pcb
+\i (00:09:29) zoom out -1.4220 1.7469
+\i (00:09:29) trapsize 577
+\i (00:09:32) save 
+\f (00:09:32) C:/Documents and Settings/Administrator/桌面/XTAL.dra: File Exists. Overwrite? 
+\i (00:09:33) fillin yes 
+\t (00:09:33) Symbol 'xtal.psm' created.
+\i (00:09:33) generaledit 
+\i (00:09:34) pick grid 4.1169 2.9585
+\t (00:09:34) last pick:  4.1148  2.9464
+\i (00:09:34) zoom out 1 
+\i (00:09:34) setwindow pcb
+\i (00:09:34) zoom out 4.1169 2.9585
+\i (00:09:34) trapsize 1154
+\i (00:09:34) zoom out 1 
+\i (00:09:34) setwindow pcb
+\i (00:09:34) zoom out 4.1168 2.9585
+\t (00:09:34) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:09:34) trapsize 2308
+\i (00:09:36) save 
+\f (00:09:36) C:/Documents and Settings/Administrator/桌面/XTAL.dra: File Exists. Overwrite? 
+\i (00:09:36) fillin yes 
+\t (00:09:37) Symbol 'xtal.psm' created.
+\i (00:09:37) generaledit 
+\i (00:09:38) exit 

@@ -1,0 +1,18 @@
+\t (00:00:00) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:00) 
+
+\t (00:00:00) Opening existing drawing...
+\d (00:00:00) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/AT88SC0104——IIC存储器/AT88SC0104C_SOIC8.dra
+\i (00:00:01) trapsize 83
+\i (00:00:01) trapsize 81
+\i (00:00:01) trapsize 1210
+\i (00:00:01) trapsize 76200
+\i (00:00:01) trapsize 78
+\i (00:00:01) trapsize 83
+\i (00:00:01) generaledit 
+\i (00:00:05) save 
+\f (00:00:05) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/AT88SC0104——IIC存储器/AT88SC0104C_SOIC8.dra: File Exists. Overwrite? 
+\i (00:00:07) fillin yes 
+\t (00:00:07) Symbol 'at88sc0104c_soic8.psm' created.
+\i (00:00:07) generaledit 
+\i (00:00:10) exit 

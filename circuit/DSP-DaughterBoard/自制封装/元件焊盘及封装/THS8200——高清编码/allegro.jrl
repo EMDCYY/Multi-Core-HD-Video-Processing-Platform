@@ -1,0 +1,20 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/THS8200——高清编码/THS8200_TSQFP80.dra
+\i (00:00:02) trapsize 125
+\i (00:00:02) trapsize 121
+\i (00:00:02) trapsize 1814
+\i (00:00:02) trapsize 114300
+\i (00:00:02) trapsize 117
+\i (00:00:05) trapsize 125
+\i (00:00:05) generaledit 
+\i (00:00:07) pick grid 9.802 3.466
+\t (00:00:07) last pick:  9.800  3.500
+\i (00:00:07) save 
+\f (00:00:07) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/THS8200——高清编码/THS8200_TSQFP80.dra: File Exists. Overwrite? 
+\i (00:00:08) fillin yes 
+\t (00:00:08) Symbol 'ths8200_tsqfp80.psm' created.
+\i (00:00:08) generaledit 
+\i (00:00:10) exit 

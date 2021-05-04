@@ -1,0 +1,7 @@
+\t (00:00:00) pad_designer 16.0 s003 (v16-0-87P) i86
+\t (00:00:00) 
+
+\i (00:00:04) setwindow form.padedit
+\i (00:00:04) FORM padedit layers  
+\i (00:00:08) FORM padedit grid row begin_layer 
+\i (00:00:14) pse_exit

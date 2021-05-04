@@ -1,0 +1,36 @@
+\t (00:00:00) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:00) 
+
+\t (00:00:00) Opening existing drawing...
+\d (00:00:00) Database opened: C:/FPM0.080/MYSYM/SMBJ15A_DIO.dra
+\i (00:00:01) trapsize 65
+\i (00:00:01) trapsize 62
+\i (00:00:01) trapsize 43200
+\i (00:00:01) trapsize 66
+\i (00:00:03) trapsize 65
+\i (00:00:03) generaledit 
+\i (00:00:04) trapsize 43
+\i (00:00:06) add pin 
+\i (00:00:07) setwindow form.mini
+\i (00:00:07) FORM mini pad_browse  
+\f (00:00:07) Select a padstack:
+\i (00:00:20) fillin "Smbj15a_Dio_Pad"
+\w (00:00:20) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:20) Using 'SMBJ15A_DIO_PAD.pad'.
+\i (00:01:01) FORM mini offsetx 0.000 
+\i (00:03:58) setwindow pcb
+\i (00:03:58) pick -2.2 0 
+\t (00:03:58) last pick:  -2.200  0.000
+\t (00:03:58) Using 'SMBJ15A_DIO_PAD.pad'.
+\i (00:05:54) pick 2.2 0 
+\t (00:05:54) last pick:  2.200  0.000
+\t (00:05:54) Using 'SMBJ15A_DIO_PAD.pad'.
+\i (00:05:55) done 
+\t (00:05:55) Exiting from Add Pin.
+\i (00:05:55) generaledit 
+\i (00:05:56) save 
+\f (00:05:56) C:/FPM0.080/MYSYM/SMBJ15A_DIO.dra: File Exists. Overwrite? 
+\i (00:05:57) fillin yes 
+\t (00:05:59) Symbol 'smbj15a_dio.psm' created.
+\i (00:05:59) generaledit 
+\i (00:05:59) exit 

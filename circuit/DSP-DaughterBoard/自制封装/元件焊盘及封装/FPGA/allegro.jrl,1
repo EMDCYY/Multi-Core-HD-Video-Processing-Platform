@@ -1,0 +1,37 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/FPGA/FPGA_FFG1156C.dra
+\i (00:00:02) trapsize 269
+\i (00:00:02) trapsize 260
+\i (00:00:02) trapsize 3629
+\i (00:00:02) trapsize 228600
+\i (00:00:02) trapsize 234
+\i (00:00:04) trapsize 268
+\i (00:00:04) generaledit 
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in -17.396 15.177
+\i (00:00:07) trapsize 134
+\i (00:00:07) zoom in 1 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom in -17.396 15.176
+\i (00:00:07) trapsize 67
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in -17.397 15.177
+\i (00:00:08) trapsize 34
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in -17.397 15.177
+\i (00:00:08) trapsize 17
+\i (00:00:08) zoom in 1 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom in -17.397 15.177
+\i (00:00:08) trapsize 8
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out -16.530 14.517
+\i (00:00:10) trapsize 17
+\i (00:00:12) exit 

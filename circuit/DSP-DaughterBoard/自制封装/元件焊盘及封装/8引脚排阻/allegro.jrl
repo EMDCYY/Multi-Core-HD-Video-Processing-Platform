@@ -1,0 +1,18 @@
+\t (00:00:03) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:03) 
+
+\t (00:00:03) Opening existing drawing...
+\d (00:00:03) Database opened: C:/FPM/MYSYM/8P4R-0402_CN-42.dra
+\i (00:00:03) trapsize 300
+\i (00:00:03) trapsize 287
+\t (00:00:03) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:00:03) trapsize 4286
+\t (00:00:03) Grids are drawn 26.0096, 26.0096 apart for enhanced viewability.
+\i (00:00:03) trapsize 270000
+\i (00:00:03) trapsize 287
+\i (00:00:03) trapsize 303
+\i (00:00:07) trapsize 303
+\i (00:00:07) generaledit 
+\i (00:00:10) pick grid 2.4320 2.1506
+\t (00:00:10) last pick:  2.4384  2.1590
+\i (00:00:10) exit 

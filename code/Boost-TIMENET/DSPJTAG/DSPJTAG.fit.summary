@@ -1,0 +1,11 @@
+Fitter Status : Successful - Wed Nov 30 21:58:46 2011
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : DSPJTAG
+Top-level Entity Name : DSPJTAG
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 219 / 240 ( 91 % )
+Total pins : 24 / 80 ( 30 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

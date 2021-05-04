@@ -1,0 +1,86 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.064/MYSYM/C3528_P.dra
+\i (00:00:02) trapsize 27
+\i (00:00:02) trapsize 26
+\i (00:00:02) trapsize 419
+\i (00:00:02) trapsize 26395
+\i (00:00:02) trapsize 27
+\i (00:00:04) trapsize 27
+\i (00:00:04) generaledit 
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 2.124 1.796
+\i (00:00:06) trapsize 34
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 3.293 2.488
+\i (00:00:06) trapsize 34
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 3.293 2.488
+\i (00:00:06) trapsize 34
+\i (00:00:10) prmed 
+\i (00:00:11) setwindow form.prmedit
+\i (00:00:11) FORM prmedit design  
+\i (00:00:14) FORM prmedit units Mils 
+\e (00:00:14) Change may cause round-off; run dbcheck.
+\i (00:00:16) FORM prmedit done  
+\w (00:00:16) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:16) setwindow pcb
+\i (00:00:16) trapsize 134
+\t (00:00:16) Performing DRC...
+\t (00:00:16) No DRC errors detected.
+\i (00:00:16) generaledit 
+\i (00:00:19) add pin 
+\i (00:00:20) setwindow form.mini
+\i (00:00:20) FORM mini pad_browse  
+\f (00:00:20) Select a padstack:
+\i (00:00:30) fillin "C3528_P_Pad"
+\t (00:00:30) Using 'C3528_P_PAD.pad'.
+\i (00:00:34) FORM mini offsetx 0.00 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) pick -57.09 0 
+\t (00:01:04) last pick:  -57.09  0.00
+\t (00:01:04) Using 'C3528_P_PAD.pad'.
+\i (00:01:21) pick 57.09 0 
+\t (00:01:21) last pick:  57.09  0.00
+\t (00:01:21) Using 'C3528_P_PAD.pad'.
+\i (00:01:22) done 
+\t (00:01:22) Exiting from Add Pin.
+\i (00:01:23) generaledit 
+\i (00:01:24) save 
+\f (00:01:24) C:/FPM0.064/MYSYM/C3528_P.dra: File Exists. Overwrite? 
+\i (00:01:24) fillin yes 
+\t (00:01:25) Symbol 'c3528_p.psm' created.
+\i (00:01:25) generaledit 
+\i (00:01:29) color192 
+\i (00:01:30) generaledit 
+\i (00:01:32) setwindow cvf.dialog
+\i (00:01:32) cvf global_invisible
+\i (00:01:34) cvf layer_tree_item 44
+\i (00:01:35) cvf layer_grid_vis 2 153 1
+\i (00:01:37) cvf apply
+\i (00:01:39) cvf layer_tree_item 54
+\i (00:01:40) cvf layer_grid_vis 3 221 1
+\i (00:01:41) cvf apply
+\i (00:01:49) cvf layer_grid_vis 9 221 1
+\i (00:01:50) cvf apply
+\i (00:01:55) cvf layer_grid_vis 5 221 1
+\i (00:01:56) cvf apply
+\i (00:01:58) cvf layer_tree_item 55
+\i (00:02:02) cvf layer_grid_vis 3 237 1
+\i (00:02:03) cvf apply
+\i (00:02:05) cvf layer_grid_vis 5 237 1
+\i (00:02:06) cvf apply
+\i (00:02:10) cvf global_visible
+\i (00:02:12) cvf okay
+\i (00:02:13) setwindow pcb
+\i (00:02:13) save 
+\f (00:02:14) C:/FPM0.064/MYSYM/C3528_P.dra: File Exists. Overwrite? 
+\i (00:02:14) fillin yes 
+\t (00:02:14) Symbol 'c3528_p.psm' created.
+\i (00:02:14) generaledit 
+\i (00:02:15) exit 

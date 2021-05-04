@@ -1,0 +1,26 @@
+(------------------------------------------------------------)
+(                                                            )
+(        Batch DRC Update                                    )
+(                                                            )
+(        Drawing          : null.dra                         )
+(        Software Version : 16.0s006                         )
+(        Date/Time        : Tue Jan 04 21:44:36 2011         )
+(                                                            )
+(------------------------------------------------------------)
+
+
+ ========= check shapes                       Tue Jan 04 21:44:36 2011
+ ========= check standalone pins              Tue Jan 04 21:44:36 2011
+ ========= check symbols (pins,lines,text)    Tue Jan 04 21:44:36 2011
+ ========= check nets                         Tue Jan 04 21:44:36 2011
+ ========= check standalone branches          Tue Jan 04 21:44:36 2011
+ ========= check standalone filled rectangles Tue Jan 04 21:44:36 2011
+ ========= check standalone lines             Tue Jan 04 21:44:36 2011
+ ========= check standalone text              Tue Jan 04 21:44:36 2011
+ ========= check standalone rectangles        Tue Jan 04 21:44:36 2011
+
+ ..... Total number of DRC errors  0
+
+ ..... end batch DRC at                       Tue Jan 04 21:44:36 2011
+ *************************************************************************
+

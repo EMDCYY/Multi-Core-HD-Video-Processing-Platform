@@ -1,0 +1,17 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.064/MYSYM/R0402.dra
+\i (00:00:02) trapsize 19
+\i (00:00:02) trapsize 119
+\i (00:00:02) trapsize 18755
+\i (00:00:02) trapsize 19
+\i (00:00:04) trapsize 19
+\i (00:00:04) generaledit 
+\i (00:00:06) save 
+\f (00:00:06) C:/FPM0.064/MYSYM/R0402.dra: File Exists. Overwrite? 
+\i (00:00:07) fillin yes 
+\t (00:00:07) Symbol 'r0402.psm' created.
+\i (00:00:07) generaledit 
+\i (00:00:08) exit 

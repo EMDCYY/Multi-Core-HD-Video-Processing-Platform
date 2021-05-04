@@ -1,0 +1,87 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.064/MYSYM/R0402.dra
+\i (00:00:02) trapsize 19
+\i (00:00:02) trapsize 119
+\i (00:00:02) trapsize 18755
+\i (00:00:02) trapsize 19
+\i (00:00:04) trapsize 19
+\i (00:00:04) generaledit 
+\i (00:00:07) add pin 
+\i (00:00:08) setwindow form.mini
+\i (00:00:08) FORM mini pad_browse  
+\f (00:00:08) Select a padstack:
+\i (00:00:19) fillin "R0402_Pad"
+\w (00:00:19) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:19) Using 'R0402_PAD.pad'.
+\i (00:00:24) FORM mini offsetx 0.000 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) prmed 
+\t (00:00:32) Exiting from Add Pin.
+\i (00:00:33) setwindow form.prmedit
+\i (00:00:33) FORM prmedit design  
+\i (00:00:35) FORM prmedit units Mils 
+\e (00:00:35) Change may cause round-off; run dbcheck.
+\i (00:00:37) FORM prmedit done  
+\w (00:00:37) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:37) setwindow pcb
+\i (00:00:37) trapsize 89
+\t (00:00:37) Performing DRC...
+\t (00:00:37) No DRC errors detected.
+\i (00:00:37) generaledit 
+\i (00:00:41) add pin 
+\t (00:00:41) Using 'R0402_PAD.pad'.
+\i (00:01:04) pick -18.9 0 
+\t (00:01:04) last pick:  -18.90  0.00
+\t (00:01:04) Using 'R0402_PAD.pad'.
+\i (00:01:16) pick 18.9 0 
+\t (00:01:16) last pick:  18.90  0.00
+\t (00:01:16) Using 'R0402_PAD.pad'.
+\i (00:01:20) done 
+\t (00:01:20) Exiting from Add Pin.
+\i (00:01:20) generaledit 
+\i (00:01:34) zoom in 1 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) zoom in -43.78 9.81
+\i (00:01:34) trapsize 45
+\i (00:01:37) zoom out 1 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom out -43.51 9.72
+\i (00:01:37) trapsize 89
+\i (00:01:39) zoom in 1 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) zoom in -43.24 9.64
+\i (00:01:39) trapsize 45
+\i (00:01:43) zoom in 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom in -41.18 9.55
+\i (00:01:43) trapsize 22
+\i (00:01:43) zoom in 1 
+\i (00:01:43) setwindow pcb
+\i (00:01:43) zoom in -41.17 9.55
+\i (00:01:43) trapsize 11
+\i (00:01:54) zoom out 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom out -42.46 9.82
+\i (00:01:54) trapsize 22
+\i (00:01:54) zoom out 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom out -42.48 9.83
+\i (00:01:54) trapsize 45
+\i (00:01:55) zoom out 1 
+\i (00:01:55) setwindow pcb
+\i (00:01:55) zoom out -42.48 9.84
+\i (00:01:55) trapsize 89
+\i (00:02:03) save 
+\f (00:02:03) C:/FPM0.064/MYSYM/R0402.dra: File Exists. Overwrite? 
+\i (00:02:03) fillin yes 
+\t (00:02:04) Symbol 'r0402.psm' created.
+\i (00:02:04) generaledit 
+\i (00:02:05) save 
+\f (00:02:05) C:/FPM0.064/MYSYM/R0402.dra: File Exists. Overwrite? 
+\i (00:02:05) fillin yes 
+\t (00:02:05) Symbol 'r0402.psm' created.
+\i (00:02:05) generaledit 
+\i (00:02:06) exit 

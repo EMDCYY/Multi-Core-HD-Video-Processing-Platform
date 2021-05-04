@@ -1,0 +1,32 @@
+{ Using PSTWRITER 16.0.0 p001May-05-2011 at 15:00:29 }
+
+#1 Warning [ALG0016] Part Name "SMCJ6_0.0A_SMBJ15A_DIO_P6SMBJ15A" is renamed to "SMCJ6_0.0A_SMBJ15A_DIO_P6SMBJ15".
+#2 Warning [ALG0051] Pin "GND" is renamed to "GND#4" after substituting illegal characters in Package JTAG , J8: Schematic, SH07 FPGA_Config (3.40, 6.90).
+#3 Warning [ALG0051] Pin "GND" is renamed to "GND#8" after substituting illegal characters in Package JTAG , J8: Schematic, SH07 FPGA_Config (3.40, 6.90).
+#4 Warning [ALG0051] Pin "GND" is renamed to "GND#10" after substituting illegal characters in Package JTAG , J8: Schematic, SH07 FPGA_Config (3.40, 6.90).
+#5 Warning [ALG0051] Pin "GND" is renamed to "GND#12" after substituting illegal characters in Package JTAG , J8: Schematic, SH07 FPGA_Config (3.40, 6.90).
+#6 Warning [ALG0016] Part Name "MP_CON_QFS_078_0425_L_D_PC8_MP_CON" is renamed to "MP_CON_QFS_078_0425_L_D_PC8_MP_".
+#7 Warning [ALG0016] Part Name "RESARR_IS_4/SM_8P4R_0402_CN_42_22" is renamed to "RESARR_IS_4/SM_8P4R_0402_CN_42_".
+#8 Warning [ALG0016] Part Name "SN74LVC1G123DCTR_SN74LVC1G123_DCT_SN74LVC1G123DCTR" is renamed to "SN74LVC1G123DCTR_SN74LVC1G123_D".
+#9 Warning [ALG0016] Part Name "SN74LVC2T45DCUT_SN74LVC2T45_TSSOP8_SN74LVC2T45DCUT" is renamed to "SN74LVC2T45DCUT_SN74LVC2T45_TSS".
+#10 Warning [ALG0016] Part Name "XC6VLX130T_FPGA_FFG1156C_XC6VLX130T" is renamed to "XC6VLX130T_FPGA_FFG1156C_XC6VLX".
+#11 Warning [ALG0016] Part Name "MT47H64M16_MT47H64M16_FBGA84_MT47H64M16" is renamed to "MT47H64M16_MT47H64M16_FBGA84_MT".
+#12 Warning [ALG0016] Part Name "CDCM61001_CDCM61001_QFN32_CDCM61001" is renamed to "CDCM61001_CDCM61001_QFN32_CDCM6".
+#13 Warning [ALG0016] Part Name "SN65LVDS104PW_SN65LVDS104_TSOP16_SN65LVDS104PW" is renamed to "SN65LVDS104PW_SN65LVDS104_TSOP1".
+#14 Warning [ALG0016] Part Name "74CBTLV1G125_74CBTLV1G125_DCK_74CBTLV1G125" is renamed to "74CBTLV1G125_74CBTLV1G125_DCK_7".
+#15 Warning [ALG0016] Part Name "PTH08T240F_PTH08T240F_EBS11_PTH08T240F" is renamed to "PTH08T240F_PTH08T240F_EBS11_PTH".
+#16 Warning [ALG0016] Part Name "PTH12040W_PTH12040W_EVF20_PTH12040W" is renamed to "PTH12040W_PTH12040W_EVF20_PTH12".
+#17 Warning [ALG0016] Part Name "PTH05050WAD_PTH05050W_EUU6_PTH05050WAD" is renamed to "PTH05050WAD_PTH05050W_EUU6_PTH0".
+#18 Warning [ALG0016] Part Name "TVP5150AM1PBS_TVP5150AM1_TSQFP32_TVP5150AM1PBS" is renamed to "TVP5150AM1PBS_TVP5150AM1_TSQFP3".
+#19 Warning [ALG0016] Part Name "SAA7121H_SAA7121H_QFP44_SAA7121H" is renamed to "SAA7121H_SAA7121H_QFP44_SAA7121".
+#20 Warning [ALG0016] Part Name "TVP7002_TVP7002_TSQFP100_TVP7002" is renamed to "TVP7002_TVP7002_TSQFP100_TVP700".
+Scanning netlist files ...
+
+Loading... e:\专业相关资料\dsp图像处理资料\采购物品\hampoo公司layout\原理图\原理图——基板\allegro/pstchip.dat
+
+Loading... e:\专业相关资料\dsp图像处理资料\采购物品\hampoo公司layout\原理图\原理图——基板\allegro/pstchip.dat
+
+Loading... e:\专业相关资料\dsp图像处理资料\采购物品\hampoo公司layout\原理图\原理图——基板\allegro/pstxprt.dat
+
+Loading... e:\专业相关资料\dsp图像处理资料\采购物品\hampoo公司layout\原理图\原理图——基板\allegro/pstxnet.dat
+packaging the design view...

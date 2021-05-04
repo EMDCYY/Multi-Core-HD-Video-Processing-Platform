@@ -1,0 +1,52 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.064/MYSYM/C7343_P.dra
+\i (00:00:02) trapsize 47
+\i (00:00:02) trapsize 45
+\i (00:00:02) trapsize 722
+\i (00:00:02) trapsize 45505
+\i (00:00:02) trapsize 46
+\i (00:00:04) trapsize 46
+\i (00:00:04) generaledit 
+\i (00:00:07) prmed 
+\i (00:00:09) setwindow form.prmedit
+\i (00:00:09) FORM prmedit design  
+\i (00:00:11) FORM prmedit units Mils 
+\e (00:00:11) Change may cause round-off; run dbcheck.
+\i (00:00:12) FORM prmedit done  
+\w (00:00:12) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:12) setwindow pcb
+\i (00:00:12) trapsize 217
+\t (00:00:12) Performing DRC...
+\t (00:00:12) No DRC errors detected.
+\i (00:00:13) generaledit 
+\i (00:00:14) save 
+\f (00:00:14) C:/FPM0.064/MYSYM/C7343_P.dra: File Exists. Overwrite? 
+\i (00:00:15) fillin yes 
+\t (00:00:15) Symbol 'c7343_p.psm' created.
+\i (00:00:15) generaledit 
+\i (00:00:16) add pin 
+\i (00:00:18) setwindow form.mini
+\i (00:00:18) FORM mini pad_browse  
+\f (00:00:18) Select a padstack:
+\i (00:00:35) fillin "C7343_P_Pad"
+\t (00:00:35) Using 'C7343_P_PAD.pad'.
+\i (00:00:39) FORM mini offsetx 0.00 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) pick -122.05 0 
+\t (00:01:32) last pick:  -122.05  0.00
+\t (00:01:32) Using 'C7343_P_PAD.pad'.
+\i (00:01:42) pick 122.05 0 
+\t (00:01:42) last pick:  122.05  0.00
+\t (00:01:42) Using 'C7343_P_PAD.pad'.
+\i (00:01:44) done 
+\t (00:01:44) Exiting from Add Pin.
+\i (00:01:44) generaledit 
+\i (00:01:45) save 
+\f (00:01:45) C:/FPM0.064/MYSYM/C7343_P.dra: File Exists. Overwrite? 
+\i (00:01:45) fillin yes 
+\t (00:01:46) Symbol 'c7343_p.psm' created.
+\i (00:01:46) generaledit 
+\i (00:02:06) exit 

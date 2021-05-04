@@ -1,0 +1,43 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/SN65LVDS104——1路转4路差分信号中继器/SN65LVDS104_TSOP16.dra
+\i (00:00:02) trapsize 70
+\i (00:00:02) trapsize 68
+\i (00:00:02) trapsize 1091
+\i (00:00:02) trapsize 68730
+\i (00:00:02) trapsize 70
+\i (00:00:05) trapsize 70
+\i (00:00:05) generaledit 
+\i (00:00:10) color192 
+\i (00:00:11) generaledit 
+\i (00:00:13) setwindow cvf.dialog
+\i (00:00:13) cvf global_invisible
+\i (00:00:15) cvf apply
+\i (00:00:20) cvf layer_tree_item 37
+\i (00:00:21) cvf layer_grid_vis 2 153 1
+\i (00:00:22) cvf apply
+\i (00:00:26) cvf layer_tree_item 53
+\i (00:00:52) cvf layer_tree_item 54
+\i (00:00:55) cvf layer_grid_vis 7 221 1
+\i (00:00:56) cvf apply
+\i (00:01:02) cvf layer_grid_vis 5 221 1
+\i (00:01:06) cvf apply
+\i (00:01:08) cvf layer_grid_vis 3 221 1
+\i (00:01:09) cvf apply
+\i (00:01:14) cvf layer_grid_vis 9 221 1
+\i (00:01:17) cvf apply
+\i (00:01:27) cvf layer_tree_item 55
+\i (00:01:39) cvf layer_grid_vis 3 237 1
+\i (00:01:40) cvf apply
+\i (00:01:44) cvf layer_grid_vis 5 237 1
+\i (00:01:46) cvf apply
+\i (00:01:48) cvf okay
+\i (00:01:50) setwindow pcb
+\i (00:01:50) save 
+\f (00:01:50) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/SN65LVDS104——1路转4路差分信号中继器/SN65LVDS104_TSOP16.dra: File Exists. Overwrite? 
+\i (00:01:51) fillin yes 
+\t (00:01:51) Symbol 'sn65lvds104_tsop16.psm' created.
+\i (00:01:51) generaledit 
+\i (00:01:53) exit 

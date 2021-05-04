@@ -1,0 +1,51 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.064/MYSYM/R0603.dra
+\i (00:00:02) trapsize 19
+\i (00:00:02) trapsize 119
+\i (00:00:02) trapsize 18755
+\i (00:00:02) trapsize 19
+\i (00:00:04) trapsize 19
+\i (00:00:04) generaledit 
+\i (00:00:28) prmed 
+\i (00:00:30) setwindow form.prmedit
+\i (00:00:30) FORM prmedit design  
+\i (00:00:32) FORM prmedit units Mils 
+\e (00:00:32) Change may cause round-off; run dbcheck.
+\i (00:00:34) FORM prmedit done  
+\w (00:00:34) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:34) setwindow pcb
+\i (00:00:34) trapsize 89
+\t (00:00:34) Performing DRC...
+\t (00:00:34) No DRC errors detected.
+\i (00:00:34) generaledit 
+\i (00:00:35) zoom in 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom in 37.68 -16.63
+\i (00:00:35) trapsize 45
+\i (00:00:36) zoom out 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom out 37.69 -16.63
+\i (00:00:36) trapsize 89
+\i (00:00:36) zoom out 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom out 37.68 -16.63
+\i (00:00:36) trapsize 89
+\i (00:00:37) color192 
+\i (00:00:38) generaledit 
+\i (00:00:40) setwindow cvf.dialog
+\i (00:00:40) cvf cancel
+\i (00:00:41) setwindow pcb
+\i (00:00:41) add pin 
+\i (00:00:46) setwindow form.mini
+\i (00:00:46) FORM mini offsetx 0.00 
+\i (00:00:46) FORM mini pad_browse  
+\f (00:00:46) Select a padstack:
+\i (00:00:55) fillin "menu_cancel"
+\i (00:00:56) setwindow pcb
+\i (00:00:56) exit 
+\t (00:00:56) Exiting from Add Pin.
+\f (00:00:56) Do you want to save the changes you made to R0603.dra?
+\i (00:00:58) fillin no 

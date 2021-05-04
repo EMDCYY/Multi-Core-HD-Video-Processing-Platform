@@ -1,0 +1,24 @@
+\t (00:00:00) pad_designer 16.0 s003 (v16-0-87P) i86
+\t (00:00:00) 
+
+\i (00:00:01) setwindow form.padedit
+\i (00:00:01) pse_new 
+\i (00:00:27) fillin "C:\FPM0.064\MYSYM\C3528_P_Pad.pad"
+\i (00:00:28) FORM padedit single YES 
+\i (00:00:29) FORM padedit layers  
+\i (00:09:25) FORM padedit grid row begin_layer 
+\i (00:09:33) FORM padedit geometry Rectangle 
+\i (00:09:53) FORM padedit width 70 
+\i (00:10:05) FORM padedit width 71 
+\i (00:10:15) FORM padedit height 89 
+\i (00:10:18) FORM padedit grid rpopup begin_layer Copy 
+\i (00:10:20) FORM padedit grid rpopup pastemask_top Paste 
+\i (00:10:21) FORM padedit grid row soldermask_top 
+\i (00:10:23) FORM padedit geometry Octagon 
+\i (00:10:25) FORM padedit geometry Rectangle 
+\i (00:10:29) FORM padedit width 75 
+\i (00:10:36) FORM padedit height 93 
+\i (00:10:39) FORM padedit crossbox YES 
+\i (00:10:42) pse_check 
+\i (00:10:44) pse_save 
+\i (00:10:49) pse_exit

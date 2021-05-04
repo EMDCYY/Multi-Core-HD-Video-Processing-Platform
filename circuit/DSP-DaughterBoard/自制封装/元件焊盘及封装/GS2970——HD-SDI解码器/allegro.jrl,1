@@ -1,0 +1,69 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.064/MYSYM/GS2970_BGA100.dra
+\i (00:00:02) trapsize 91
+\i (00:00:02) trapsize 88
+\i (00:00:02) trapsize 568
+\i (00:00:02) trapsize 89130
+\i (00:00:02) trapsize 91
+\i (00:00:04) trapsize 91
+\i (00:00:04) generaledit 
+\i (00:00:21) zoom in 1 
+\i (00:00:21) setwindow pcb
+\i (00:00:21) zoom in -5.062 4.734
+\i (00:00:21) trapsize 46
+\i (00:00:22) zoom in 1 
+\i (00:00:22) setwindow pcb
+\i (00:00:22) zoom in -5.062 4.734
+\i (00:00:22) trapsize 23
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out -5.075 4.734
+\i (00:00:30) trapsize 46
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out -5.075 4.735
+\i (00:00:30) trapsize 91
+\i (00:00:31) zoom out 1 
+\i (00:00:31) setwindow pcb
+\i (00:00:31) zoom out -6.386 4.571
+\i (00:00:31) trapsize 160
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in -9.372 9.966
+\i (00:00:32) trapsize 80
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in -9.372 9.966
+\i (00:00:32) trapsize 40
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out -8.163 8.446
+\i (00:00:32) trapsize 80
+\i (00:00:32) zoom out 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom out -7.019 8.445
+\i (00:00:32) trapsize 160
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in -6.907 -4.409
+\i (00:00:34) trapsize 80
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in -6.906 -4.409
+\i (00:00:34) trapsize 40
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out -6.906 -4.408
+\i (00:00:35) trapsize 80
+\i (00:00:45) zoom out 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom out -6.313 -2.424
+\i (00:00:45) trapsize 160
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out -5.722 -0.439
+\i (00:00:46) trapsize 160
+\i (00:00:48) exit 

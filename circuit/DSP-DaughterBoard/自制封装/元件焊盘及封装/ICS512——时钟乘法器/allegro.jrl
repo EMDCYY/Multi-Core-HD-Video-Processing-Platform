@@ -1,0 +1,18 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/ICS512——时钟乘法器/ICS512_SOIC8.dra
+\i (00:00:02) trapsize 52
+\i (00:00:02) trapsize 50
+\i (00:00:02) trapsize 268
+\i (00:00:02) trapsize 50730
+\i (00:00:03) trapsize 52
+\i (00:00:05) trapsize 52
+\i (00:00:05) generaledit 
+\i (00:00:06) save 
+\f (00:00:06) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/ICS512——时钟乘法器/ICS512_SOIC8.dra: File Exists. Overwrite? 
+\i (00:00:07) fillin yes 
+\t (00:00:07) Symbol 'ics512_soic8.psm' created.
+\i (00:00:07) generaledit 
+\i (00:00:08) exit 

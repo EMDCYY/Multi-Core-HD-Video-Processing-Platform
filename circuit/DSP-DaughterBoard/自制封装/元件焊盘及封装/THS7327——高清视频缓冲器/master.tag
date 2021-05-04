@@ -1,0 +1,1 @@
+THS7327_TSQFP48.dra

@@ -1,0 +1,50 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/TVP7002——高清解码/TVP7002_TSQFP100.dra
+\i (00:00:02) trapsize 139
+\i (00:00:02) trapsize 135
+\i (00:00:02) trapsize 1814
+\i (00:00:02) trapsize 114300
+\i (00:00:02) trapsize 117
+\i (00:00:04) trapsize 139
+\i (00:00:04) generaledit 
+\i (00:00:13) save 
+\f (00:00:13) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/TVP7002——高清解码/TVP7002_TSQFP100.dra: File Exists. Overwrite? 
+\i (00:00:13) fillin yes 
+\t (00:00:14) Symbol 'tvp7002_tsqfp100.psm' created.
+\i (00:00:14) generaledit 
+\i (00:00:15) color192 
+\i (00:00:15) generaledit 
+\i (00:00:17) setwindow cvf.dialog
+\i (00:00:17) cvf global_invisible
+\i (00:00:20) cvf layer_tree_item 44
+\i (00:00:22) cvf layer_grid_vis 2 153 1
+\i (00:00:23) cvf apply
+\i (00:00:25) cvf layer_tree_item 53
+\i (00:00:26) cvf layer_tree_item 54
+\i (00:00:28) cvf layer_grid_vis 3 221 1
+\i (00:00:29) cvf apply
+\i (00:00:34) cvf layer_grid_vis 7 221 1
+\i (00:00:35) cvf apply
+\i (00:00:42) cvf layer_grid_vis 9 221 1
+\i (00:00:43) cvf apply
+\i (00:00:48) cvf layer_grid_vis 5 221 1
+\i (00:00:50) cvf apply
+\i (00:00:52) cvf layer_tree_item 55
+\i (00:00:54) cvf layer_grid_vis 3 237 1
+\i (00:00:55) cvf apply
+\i (00:00:57) cvf layer_grid_vis 5 237 1
+\i (00:00:58) cvf apply
+\i (00:01:01) cvf global_visible
+\i (00:01:02) cvf okay
+\i (00:01:03) setwindow pcb
+\i (00:01:03) pick grid 10.375 -6.071
+\t (00:01:03) last pick:  10.400  -6.100
+\i (00:01:04) save 
+\f (00:01:04) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/TVP7002——高清解码/TVP7002_TSQFP100.dra: File Exists. Overwrite? 
+\i (00:01:04) fillin yes 
+\t (00:01:05) Symbol 'tvp7002_tsqfp100.psm' created.
+\i (00:01:05) generaledit 
+\i (00:01:05) exit 

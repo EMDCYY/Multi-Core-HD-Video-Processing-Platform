@@ -1,0 +1,1 @@
+MAX3243_SSOP28.dra

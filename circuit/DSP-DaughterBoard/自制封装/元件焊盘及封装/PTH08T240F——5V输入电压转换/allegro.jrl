@@ -1,0 +1,58 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/PTH08T240F——5V输入电压转换/PTH08T240F_EBS11.dra
+\i (00:00:02) trapsize 59
+\i (00:00:02) trapsize 57
+\t (00:00:02) Grids are drawn 0.1568, 0.1568 apart for enhanced viewability.
+\i (00:00:02) trapsize 914
+\t (00:00:02) Grids are drawn 10.0352, 10.0352 apart for enhanced viewability.
+\i (00:00:02) trapsize 57585
+\i (00:00:02) trapsize 59
+\i (00:00:04) trapsize 59
+\i (00:00:04) generaledit 
+\i (00:00:09) setwindow form.vf_vis
+\i (00:00:09) FORM vf_vis all_all_visible YES 
+\i (00:00:10) FORM vf_vis all_all_visible NO 
+\i (00:00:26) FORM vf_vis all_all_visible YES 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) pick grid 0.3778 0.3813
+\t (00:00:28) last pick:  0.3822  0.3822
+\i (00:00:35) color192 
+\i (00:00:35) generaledit 
+\i (00:00:38) setwindow cvf.dialog
+\i (00:00:38) cvf global_invisible
+\i (00:00:40) cvf apply
+\i (00:00:43) cvf layer_tree_item 37
+\i (00:00:45) cvf layer_grid_vis 2 153 1
+\i (00:01:24) cvf apply
+\i (00:02:11) cvf layer_tree_item 54
+\i (00:02:36) cvf layer_grid_vis 7 221 1
+\i (00:02:37) cvf apply
+\i (00:02:54) cvf layer_grid_vis 9 221 1
+\i (00:02:55) cvf apply
+\i (00:03:12) cvf layer_grid_vis 11 221 1
+\i (00:03:14) cvf apply
+\i (00:03:26) cvf layer_grid_vis 13 221 1
+\i (00:03:27) cvf apply
+\i (00:03:58) cvf layer_tree_item 58
+\i (00:04:04) cvf layer_grid_vis 3 237 1
+\i (00:04:06) cvf apply
+\i (00:05:01) cvf layer_grid_vis 5 237 1
+\i (00:05:02) cvf apply
+\i (00:05:05) cvf okay
+\i (00:05:09) setwindow pcb
+\i (00:05:09) color192 
+\i (00:05:09) generaledit 
+\i (00:05:12) setwindow cvf.dialog
+\i (00:05:12) cvf global_visible
+\i (00:05:17) cvf okay
+\i (00:09:03) setwindow pcb
+\i (00:09:03) pick grid 0.2155 0.4060
+\t (00:09:03) last pick:  0.2156  0.4018
+\i (00:09:04) save 
+\f (00:09:05) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/PTH08T240F——5V输入电压转换/PTH08T240F_EBS11.dra: File Exists. Overwrite? 
+\i (00:09:05) fillin yes 
+\t (00:09:06) Symbol 'pth08t240f_ebs11.psm' created.
+\i (00:09:06) exit 

@@ -1,0 +1,18 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/测试点/TestPoint_S200d90.dra
+\i (00:00:02) trapsize 21
+\i (00:00:02) trapsize 20
+\i (00:00:02) trapsize 138
+\i (00:00:02) trapsize 21600
+\i (00:00:02) trapsize 22
+\i (00:00:04) trapsize 21
+\i (00:00:04) generaledit 
+\i (00:00:06) save 
+\f (00:00:06) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/测试点/TestPoint_S200d90.dra: File Exists. Overwrite? 
+\i (00:00:06) fillin yes 
+\t (00:00:07) Symbol 'testpoint_s200d90.psm' created.
+\i (00:00:07) generaledit 
+\i (00:00:08) exit 

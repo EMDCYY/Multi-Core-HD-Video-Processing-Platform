@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.416 ns
+From           : SDATA_CDCL6010
+To             : SDATA_D
+From Clock     : --
+To Clock       : CLK_12M
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.772 ns
+From           : F1_TRST~reg0
+To             : F1_TRST
+From Clock     : CLK_12M
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -1.121 ns
+From           : F1_EMU1
+To             : EXT_EMU1~reg0
+From Clock     : --
+To Clock       : CLK_12M
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK_12M'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 43.86 MHz ( period = 22.802 ns )
+From           : COUNTER[0]
+To             : kickoff_num_CDCL6010[2]
+From Clock     : CLK_12M
+To Clock       : CLK_12M
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

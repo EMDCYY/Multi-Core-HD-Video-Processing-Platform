@@ -1,0 +1,46 @@
+\t (00:00:00) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:00) 
+
+\t (00:00:00) Opening existing drawing...
+\d (00:00:00) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/接口/DB9/DB9.dra
+\i (00:00:01) trapsize 70
+\i (00:00:01) trapsize 67
+\t (00:00:01) Grids are drawn 0.1016, 0.1016 apart for enhanced viewability.
+\i (00:00:01) trapsize 433
+\t (00:00:01) Grids are drawn 6.5024, 6.5024 apart for enhanced viewability.
+\i (00:00:01) trapsize 68025
+\i (00:00:01) trapsize 69
+\i (00:00:01) trapsize 69
+\i (00:00:01) generaledit 
+\i (00:00:02) zoom out 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom out -20.5523 8.3441
+\i (00:00:02) trapsize 139
+\i (00:00:02) zoom out 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom out -20.5523 8.3413
+\i (00:00:02) trapsize 278
+\i (00:00:02) zoom out 1 
+\i (00:00:02) setwindow pcb
+\i (00:00:02) zoom out -20.5522 8.3413
+\t (00:00:02) Grids are drawn 0.1016, 0.1016 apart for enhanced viewability.
+\i (00:00:02) trapsize 556
+\i (00:00:03) zoom out 1 
+\i (00:00:03) setwindow pcb
+\i (00:00:03) zoom out -20.5523 8.3414
+\i (00:00:03) trapsize 1112
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out -23.0648 9.4087
+\t (00:00:04) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:00:04) trapsize 2224
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out -23.1537 9.1418
+\i (00:00:04) trapsize 4447
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out -23.1537 8.8750
+\t (00:00:04) Grids are drawn 1.6256, 1.6256 apart for enhanced viewability.
+\i (00:00:04) trapsize 8894
+\i (00:00:05) exit 

@@ -1,0 +1,11 @@
+Fitter Status : Successful - Mon Mar 26 18:45:37 2012
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : TIMENET
+Top-level Entity Name : TIMENET
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 210 / 240 ( 88 % )
+Total pins : 10 / 80 ( 13 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

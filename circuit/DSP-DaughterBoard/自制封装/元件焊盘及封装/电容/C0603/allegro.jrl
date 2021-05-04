@@ -1,0 +1,28 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/电容/C0603/C0603.dra
+\i (00:00:02) trapsize 88
+\i (00:00:02) trapsize 85
+\i (00:00:02) trapsize 1350
+\i (00:00:02) trapsize 85040
+\i (00:00:02) trapsize 87
+\i (00:00:02) trapsize 89
+\i (00:00:04) trapsize 89
+\i (00:00:04) generaledit 
+\i (00:00:09) color192 
+\i (00:00:09) generaledit 
+\i (00:00:12) setwindow cvf.dialog
+\i (00:00:12) cvf global_invisible
+\i (00:00:14) cvf layer_grid_vis 3 221 1
+\i (00:00:19) cvf apply
+\i (00:00:22) cvf global_visible
+\i (00:00:23) cvf okay
+\i (00:00:24) setwindow pcb
+\i (00:00:24) save 
+\f (00:00:24) E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/电容/C0603/C0603.dra: File Exists. Overwrite? 
+\i (00:00:24) fillin yes 
+\t (00:00:25) Symbol 'c0603.psm' created.
+\i (00:00:25) generaledit 
+\i (00:00:25) exit 

@@ -1,0 +1,69 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.064/MYSYM/L1210.dra
+\i (00:00:02) trapsize 23
+\i (00:00:02) trapsize 22
+\i (00:00:02) trapsize 140
+\i (00:00:02) trapsize 22000
+\i (00:00:02) trapsize 22
+\i (00:00:04) trapsize 22
+\i (00:00:04) generaledit 
+\i (00:00:06) add pin 
+\i (00:00:08) setwindow form.mini
+\i (00:00:08) FORM mini pad_browse  
+\f (00:00:08) Select a padstack:
+\i (00:00:15) fillin "L1210_Pad"
+\w (00:00:15) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:15) Using 'L1210_PAD.pad'.
+\i (00:00:24) FORM mini offsetx 0.000 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) prmed 
+\t (00:00:26) Exiting from Add Pin.
+\i (00:00:28) setwindow form.prmedit
+\i (00:00:28) FORM prmedit design  
+\i (00:00:30) FORM prmedit units Mils 
+\e (00:00:30) Change may cause round-off; run dbcheck.
+\i (00:00:32) FORM prmedit done  
+\w (00:00:32) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:32) setwindow pcb
+\i (00:00:32) trapsize 119
+\t (00:00:32) Performing DRC...
+\t (00:00:32) No DRC errors detected.
+\i (00:00:32) generaledit 
+\i (00:00:35) add pin 
+\t (00:00:35) Using 'L1210_PAD.pad'.
+\i (00:01:01) pick -59.5 0 
+\t (00:01:01) last pick:  -59.50  0.00
+\t (00:01:01) Using 'L1210_PAD.pad'.
+\i (00:01:09) pick 59.5 0 
+\t (00:01:09) last pick:  59.50  0.00
+\t (00:01:09) Using 'L1210_PAD.pad'.
+\i (00:01:10) done 
+\t (00:01:10) Exiting from Add Pin.
+\i (00:01:10) generaledit 
+\i (00:01:11) save 
+\f (00:01:11) C:/FPM0.064/MYSYM/L1210.dra: File Exists. Overwrite? 
+\i (00:01:12) fillin yes 
+\t (00:01:12) Symbol 'l1210.psm' created.
+\i (00:01:12) generaledit 
+\i (00:01:14) zoom out 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom out 92.89 -1.44
+\i (00:01:14) trapsize 119
+\i (00:01:14) zoom out 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom out 92.89 -1.44
+\i (00:01:14) trapsize 119
+\i (00:01:15) zoom out 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom out 96.46 -39.55
+\i (00:01:15) trapsize 119
+\i (00:01:15) zoom out 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom out 96.46 -39.55
+\i (00:01:15) trapsize 119
+\i (00:01:16) pick grid 96.46 -39.55
+\t (00:01:16) last pick:  94.56  -39.40
+\i (00:01:22) exit 

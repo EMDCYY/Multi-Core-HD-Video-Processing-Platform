@@ -1,0 +1,66 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Starting new drawing...
+\i (00:00:02) trapsize 1075
+\i (00:00:02) trapsize 1041
+\i (00:00:02) trapsize 1491
+\i (00:00:02) trapsize 4251
+\i (00:00:02) trapsize 1050000
+\i (00:00:02) trapsize 868
+\i (00:00:04) trapsize 1129
+\i (00:00:04) generaledit 
+\i (00:00:07) open 
+\i (00:00:23) fillin "DM642_BGA548.dra"
+\t (00:00:23) Opening existing drawing...
+\i (00:00:23) trapsize 167
+\i (00:00:24) trapsize 172
+\i (00:00:24) trapsize 212
+\i (00:00:24) trapsize 212
+\d (00:00:24) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/DM642/DM642_BGA548.dra
+\i (00:00:24) generaledit 
+\i (00:00:27) zoom out 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom out 7.219 6.529
+\i (00:00:27) trapsize 267
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in -15.626 14.577
+\i (00:00:28) trapsize 133
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in -15.626 14.577
+\i (00:00:29) trapsize 67
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in -15.625 14.577
+\i (00:00:29) trapsize 33
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out -15.632 14.524
+\i (00:00:30) trapsize 67
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out -6.454 15.364
+\i (00:00:33) trapsize 133
+\i (00:00:34) zoom out 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom out 1.903 15.150
+\i (00:00:34) trapsize 267
+\i (00:00:34) zoom out 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom out 20.820 17.031
+\i (00:00:34) trapsize 267
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in -15.786 16.338
+\i (00:00:39) trapsize 133
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in -15.786 16.338
+\i (00:00:39) trapsize 67
+\i (00:00:40) zoom in 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom in -15.785 16.312
+\i (00:00:40) trapsize 33
+\i (00:00:42) exit 

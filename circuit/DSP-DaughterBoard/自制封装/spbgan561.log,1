@@ -1,0 +1,20 @@
+(------------------------------------------------------------)
+(                                                            )
+(        CREATE SYMBOL                                       )
+(                                                            )
+(        Software Version : unreleased                       )
+(        Date/Time        : Sun Jan 09 19:08:58 2011         )
+(                                                            )
+(------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+ ERROR(SPMHCS-1): Symbol is missing a refdes. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

@@ -1,0 +1,32 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/电容/C0402/C0402.dra
+\i (00:00:02) trapsize 225
+\i (00:00:02) trapsize 215
+\t (00:00:02) Grids are drawn 0.4064, 0.4064 apart for enhanced viewability.
+\i (00:00:02) trapsize 3429
+\t (00:00:02) Grids are drawn 26.0096, 26.0096 apart for enhanced viewability.
+\i (00:00:02) trapsize 216000
+\i (00:00:02) trapsize 221
+\i (00:00:02) trapsize 227
+\i (00:00:04) trapsize 227
+\i (00:00:04) generaledit 
+\i (00:00:10) color192 
+\i (00:00:10) generaledit 
+\i (00:00:13) setwindow cvf.dialog
+\i (00:00:13) cvf global_invisible
+\i (00:00:17) cvf layer_grid_vis 3 221 1
+\i (00:00:19) cvf apply
+\i (00:00:23) cvf cancel
+\i (00:00:26) setwindow pcb
+\i (00:00:26) color192 
+\i (00:00:26) generaledit 
+\i (00:00:29) setwindow cvf.dialog
+\i (00:00:29) cvf global_visible
+\i (00:00:30) cvf okay
+\i (00:00:32) setwindow pcb
+\i (00:00:32) exit 
+\f (00:00:32) Do you want to save the changes you made to C0402.dra?
+\i (00:00:33) fillin yes 

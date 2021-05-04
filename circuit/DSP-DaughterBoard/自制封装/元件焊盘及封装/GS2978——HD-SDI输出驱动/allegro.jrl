@@ -1,0 +1,13 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: E:/桌面文件/DSP图像处理资料/DSP_PCB图/DSP_FPGA_PCB图/Cadence图/元件焊盘及封装/GS2978——HD-SDI输出驱动/GS2978_QFN16.dra
+\i (00:00:02) trapsize 38
+\i (00:00:02) trapsize 37
+\i (00:00:02) trapsize 196
+\i (00:00:02) trapsize 37020
+\i (00:00:02) trapsize 38
+\i (00:00:04) trapsize 38
+\i (00:00:04) generaledit 
+\i (00:00:16) exit 

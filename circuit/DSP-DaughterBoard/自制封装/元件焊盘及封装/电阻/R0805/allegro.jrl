@@ -1,0 +1,67 @@
+\t (00:00:02) allegro 16.0 s006 (v16-0-87P) i86
+\t (00:00:02) 
+
+\t (00:00:02) Opening existing drawing...
+\d (00:00:02) Database opened: C:/FPM0.064/MYSYM/R0805.dra
+\i (00:00:02) trapsize 19
+\i (00:00:02) trapsize 119
+\i (00:00:02) trapsize 18755
+\i (00:00:02) trapsize 19
+\i (00:00:04) trapsize 19
+\i (00:00:04) generaledit 
+\i (00:00:06) save 
+\f (00:00:06) C:/FPM0.064/MYSYM/R0805.dra: File Exists. Overwrite? 
+\i (00:00:06) fillin yes 
+\t (00:00:07) Symbol 'r0805.psm' created.
+\i (00:00:07) generaledit 
+\i (00:00:08) add pin 
+\i (00:00:09) setwindow form.mini
+\i (00:00:09) FORM mini pad_browse  
+\f (00:00:09) Select a padstack:
+\i (00:00:17) fillin "R0805_Pad"
+\w (00:00:17) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:17) Using 'R0805_PAD.pad'.
+\i (00:00:22) FORM mini offsetx 0.000 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) prmed 
+\t (00:00:24) Exiting from Add Pin.
+\i (00:00:25) setwindow form.prmedit
+\i (00:00:25) FORM prmedit design  
+\i (00:00:29) FORM prmedit units Mils 
+\e (00:00:29) Change may cause round-off; run dbcheck.
+\i (00:00:30) FORM prmedit done  
+\w (00:00:30) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:30) setwindow pcb
+\i (00:00:30) trapsize 119
+\t (00:00:30) Performing DRC...
+\t (00:00:30) No DRC errors detected.
+\i (00:00:30) generaledit 
+\i (00:00:33) add pin 
+\t (00:00:33) Using 'R0805_PAD.pad'.
+\i (00:00:51) pick -37.4 0 
+\t (00:00:51) last pick:  -37.40  0.00
+\t (00:00:51) Using 'R0805_PAD.pad'.
+\i (00:00:58) pick 37.4 0 
+\t (00:00:58) last pick:  37.40  0.00
+\t (00:00:58) Using 'R0805_PAD.pad'.
+\i (00:00:59) done 
+\t (00:00:59) Exiting from Add Pin.
+\i (00:00:59) generaledit 
+\i (00:01:01) save 
+\f (00:01:01) C:/FPM0.064/MYSYM/R0805.dra: File Exists. Overwrite? 
+\i (00:01:01) fillin yes 
+\t (00:01:02) Symbol 'r0805.psm' created.
+\i (00:01:02) generaledit 
+\i (00:01:06) zoom in 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom in -27.88 17.14
+\i (00:01:06) trapsize 60
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out -27.88 17.14
+\i (00:01:07) trapsize 119
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out -27.88 17.14
+\i (00:01:07) trapsize 119
+\i (00:01:08) exit 
