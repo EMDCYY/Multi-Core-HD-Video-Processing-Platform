@@ -1,0 +1,13 @@
+M48
+INCH
+;EXTENTS: -17.500 -19.475 32.500  30.525  
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : dspdb.rou for board dspdb.brd
+%
+G90
+F1
+M16
+G40
+M30
